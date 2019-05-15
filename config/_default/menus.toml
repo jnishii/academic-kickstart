@@ -4,29 +4,35 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
-  name = "Home"
-  url = "#about"
+  name = "研究"
+  url = "/study"
   weight = 10
 
 [[main]]
-  name = "Posts"
-  url = "#posts"
+  name = "講義"
+  url = "/classes"
   weight = 20
 
 [[main]]
-  name = "Projects"
-  url = "#projects"
+  name = "資料"
+  url = "/materials"
   weight = 30
 
 [[main]]
-  name = "Publications"
-  url = "#featured"
+  name = "自己紹介"
+  url = "/about"
   weight = 40
 
 [[main]]
-  name = "Contact"
-  url = "#contact"
+  name = "Memo"
+  url = "/notebook"
+  weight = 50
+
+[[main]]
+  name = "Labo"
+  url = "http://bcl.sci.yamaguchi-u.ac.jp/"
   weight = 60
+
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
