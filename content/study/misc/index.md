@@ -1,7 +1,5 @@
 ---
-title: そのほか
-icon: user
-menu: false
+title: "そのほか"
 ---
 
 ### 楽曲解析
