@@ -15,10 +15,10 @@ role: Professor of Informatics
 # Organizations/Affiliations
 organizations:
 - name: Yamaguchi University
-  url: ""
+  url: "http://www.yamaguchi-u.ac.jp"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include brain modeling, biomechanics, and skill science.
 
 interests:
 - Neural Networks
@@ -28,7 +28,7 @@ interests:
 education:
   courses:
   - course: PhD in Engineering
-    institution: Tokyo University
+    institution: University of Tokyo
     year: 1996
 
 
@@ -45,7 +45,7 @@ social:
 #  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/jnishii
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 # - icon: cv

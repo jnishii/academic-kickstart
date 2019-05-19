@@ -8,11 +8,45 @@
   url = "/study"
   weight = 10
 
+#######
 [[main]]
   name = "講義"
+  identifier = "classes"
   url = "/classes"
   weight = 20
 
+[[main]]
+  parent ="classes"
+  name = "物理学I"
+  url = "/classes/#physics"
+
+[[main]]
+  parent ="classes"
+  name = "物理と情報のための基礎数学II"
+  url = "/classes/#math"
+
+[[main]]
+  parent ="classes"
+  name = "ロジカルシンキング"
+  url = "/classes/#lt"
+
+[[main]]
+  parent ="classes"
+  name = "計算モデル論II"
+  url = "/classes/#cm"
+
+[[main]]
+  parent ="classes"
+  name = "計算モデル論演習II"
+  url = "/classes/#gym"
+
+[[main]]
+  parent ="classes"
+  name = "自然科学II"
+  url = "/classes/#ns"
+
+
+#######
 [[main]]
   name = "資料"
   url = "/materials"
