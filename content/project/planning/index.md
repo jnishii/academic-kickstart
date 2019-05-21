@@ -1,5 +1,13 @@
 ---
-title: 運動計画
+title: 運動の最適化理論
+summary: 脳はエネルギー効率の良い運動を学習しようとしている
+tags:
+- biomechanics
+- motor control
+image:
+  caption: Photo by Edward Muybridge
+  focal_point: Smart
+weight: 30
 ---
 
 ### ウォーク・トロット・ギャロップの謎

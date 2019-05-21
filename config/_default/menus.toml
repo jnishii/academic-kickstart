@@ -5,7 +5,7 @@
 
 [[main]]
   name = "研究"
-  url = "/study"
+  url = "/projects"
   weight = 10
 
 #######

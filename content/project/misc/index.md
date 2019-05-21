@@ -1,5 +1,12 @@
 ---
 title: "そのほか"
+tags:
+- music
+- expression
+image:
+  caption: Music Progression
+  focal_point: Smart
+weight: 60
 ---
 
 ### 楽曲解析
