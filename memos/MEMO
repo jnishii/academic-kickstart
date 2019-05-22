@@ -1,0 +1,3 @@
+find . -name 'item.md' | sed -e 's/item.md//'|xargs -I{} mv {}item.md {}index.md
+find . -name '*.jpg' | while read f; do ln -sf $f .${f%/*}/featured.jpg; done
+find . -name '*.png' | while read f; do ln -sf $f .${f%/*}/featured.png; done

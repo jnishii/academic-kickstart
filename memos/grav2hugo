@@ -1,0 +1,23 @@
+#/bin/bash
+
+if [ ! -f $1 ]; then
+	echo "$1 not a file."
+	exit
+fi
+echo "processing $1..."
+
+gsed \
+-e 's/^title: \(.*\)/title: "\1"/' \
+-e 's|date: \([0-9]*\)/\([0-9]*\)/\([0-9]*\)|date: \3-\1-\2|' \
+-e '/^published:/d' \
+-e '/^taxonomy:/d' \
+-e 's/ *category: *\[\(.*\)\]/categories: ["\1"]/' \
+-e 's/ *category: *\(.*\)/categories: ["\1"]/' \
+-e 's/ *tag: *\[\(.*\)\]/tags: ["\1"]/' \
+-e 's/ *tag: \(.*\)/tags: ["\1"]/' \
+-e 's/tags:\(.*\),/tags:\1","/' \
+-e 's/===/<!--more-->/' \
+$1 > /tmp/tmp.md
+
+mv /tmp/tmp.md $1
+
