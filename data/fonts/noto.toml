@@ -1,0 +1,15 @@
+# Font style metadata
+name = "Default"
+
+# Optional Google font URL
+google_fonts = "Montserrat:300,600|Noto+Sans+JP:500,400,700|Kosugi"
+
+# Font families
+heading_font = "Montserrat"
+body_font = "Noto+Sans+JP"
+nav_font = "Montserrat"
+mono_font = "Kosugi"
+
+# Font size
+font_size = "20"
+font_size_small = "16"

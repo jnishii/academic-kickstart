@@ -5,15 +5,21 @@
 
 [[main]]
   name = "研究"
-  url = "/projects"
+  url = "#projects"
   weight = 10
 
-#######
+[[main]]
+  name = "自己紹介"
+  url = "#about"
+  weight = 20
+
+### Submenu of `classes`
+### 各講義用ファイルのヘッダで指定したいが，widgetページのためかうまくいかない
 [[main]]
   name = "講義"
   identifier = "classes"
   url = "/classes"
-  weight = 20
+  weight = 30
 
 [[main]]
   parent ="classes"
@@ -49,21 +55,19 @@
 #######
 [[main]]
   name = "資料"
+  identifier = "materials"
   url = "/materials"
-  weight = 30
-
-[[main]]
-  name = "自己紹介"
-  url = "/about"
   weight = 40
 
+### submenu of materials are specified in the header of each page!
+
 [[main]]
-  name = "Memo"
+  name = "メモ"
   url = "/notebook"
   weight = 50
 
 [[main]]
-  name = "Labo"
+  name = "研究室"
   url = "http://bcl.sci.yamaguchi-u.ac.jp/"
   weight = 60
 

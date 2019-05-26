@@ -5,7 +5,7 @@
 # Uncomment the lines below to configure your website in a second language.
 [ja]
   languageCode = "ja-JP"
-  contentDir = "content/"
+  contentDir = "content/ja"
 #  title = "Jun Nishii"
 #  [zh.params]
 #    description = "Site description in Chinese..."
@@ -15,7 +15,7 @@
 #    weight = 1
 
 # Configure the English version of the site.
-#[en]
-#  languageCode = "en-us"
-#  contentDir = "content/en"  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+[en]
+  languageCode = "en-us"
+  contentDir = "content/en"  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
 
