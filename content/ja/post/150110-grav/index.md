@@ -7,6 +7,7 @@ tags: ["grav"," cms"]
 
 サイト構築にしばらくPukiwikiを使っていたが，なんとなく他のCMSを使ってみたくなったので[grav](http://getgrav.org/)を試すことにした．
 
+<!--more-->
 ### gravの利点
 - Markdownを使える
 	+ エディタがなんでもOK

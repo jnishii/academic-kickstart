@@ -23,9 +23,17 @@ h4, h5, h6 {
   font-size: 1rem;
 }
 
+code{
+  font-size: 1rem;
+}
+
+pre{
+  font-size: .85rem;
+}
+
 /* for categories and tags */
 .article-categories {
-    padding: 0.1em 0.6em 0.2em 0.8em;
+    padding: 0.1em 0.4em 0.2em 0.6em;
     margin: 0.1em;
     font-weight: 400;
     color: #FFF;/*文字色*/
@@ -43,7 +51,7 @@ h4, h5, h6 {
 }
 
 .article-tags {
-    padding: 0.1em 0.6em 0.2em 0.8em;
+    padding: 0.1em 0.4em 0.2em 0.6em;
     margin: 0.1em;
     font-weight: 400;
     color: #4052b5;/*文字色*/

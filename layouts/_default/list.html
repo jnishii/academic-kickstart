@@ -12,6 +12,8 @@
   {{ range $paginator.Pages }}
   <div>
     <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    {{ partial "categories.html" . }} <!--jun-->
+    {{ partial "tags.html" . }} <!--jun-->
     <div class="article-style">
       {{ if .Params.summary }}
       {{ .Params.summary | plainify | emojify }}

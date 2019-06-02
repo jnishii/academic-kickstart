@@ -1,0 +1,6 @@
+{{ $taxonomy := "categories" }}
+{{ range ($.Site.GetPage "taxonomyTerm" $taxonomy).Pages }}
+<span class="article-categories">
+	<a href="{{.Permalink}}">{{.Title}}</a>
+</span>
+{{ end }}
