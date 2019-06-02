@@ -3,7 +3,7 @@ title: 特製テキスト
 date: false
 menu:
   main:
-    parent: 'materials'
+    parent: 'misc'
     weight: 20
 ---
 

@@ -6,7 +6,7 @@ tags: ["neural networks"]
 ---
 
 
-[甘利先生のインタビュー記事](http://www.sankeibiz.jp/aireport/news/160529/aia1605290700001-n1.htm)があったのでリンク。
+[甘利先生のインタビュー記事](http://www.sankeibiz.jp/aireport/news/160529/aia1605290700001-n1.htm)があった。
 神経回路モデル，情報幾何学などの第一人者です。
 機械学習に興味がある方はどうぞ。
 

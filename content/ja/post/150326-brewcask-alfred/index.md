@@ -2,7 +2,7 @@
 title: "brew-caskでインストールしたアプリをAlfredで呼び出す方法"
 date: 2015-03-26
 categories: ["comp"]
-tags: ["homebrew, alfred"," mac"]
+tags: ["homebrew", "alfred"," mac"]
 ---
 
 brew-caskでインストールしたアプリが[Alfred](http://www.alfredapp.com/)で呼び出せないのでgoogle先生に聞いたら，以下のようにすればよいとのこと．

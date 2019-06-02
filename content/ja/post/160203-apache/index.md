@@ -2,7 +2,7 @@
 title: "Apache on Mac"
 date: 2016-02-03
 categories: ["comp"]
-tags: ["mac,unix","apache"]
+tags: ["mac","unix","apache"]
 ---
 
 Mac での Apache の設定・起動方法をときどき忘れるのでメモ。

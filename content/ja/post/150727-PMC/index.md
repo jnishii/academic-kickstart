@@ -1,6 +1,6 @@
 ---
 title: "ハンガリーに行ってきました"
-date: 2015-7-29
+date: 2015-07-29
 categories: ["research"]
 tags: ["misc"]
 ---

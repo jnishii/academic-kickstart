@@ -2,7 +2,7 @@
 title: "ColaboratoryでKeras-rl+OpenAI Gym (atari)"
 date: 2018-08-29
 categories: ["comp"]
-tags: ["python,openAI Gym","colaboratory"]
+tags: ["python","openAI Gym","colaboratory"]
 ---
 
 ![](atari-kerasrl-2000.mp4?resize=300,200)

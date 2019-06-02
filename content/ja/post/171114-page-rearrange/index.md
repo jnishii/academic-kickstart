@@ -1,6 +1,6 @@
 ---
 title: "メニュー構成を少し変えました"
-date: 14-2017-11
+date: 2017-11-14
 categories: ["update"]
 ---
 

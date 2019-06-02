@@ -1,0 +1,61 @@
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2.25rem;
+}
+h2 {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+h3 {
+  font-weight: 700;
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+}
+h4, h5, h6 {
+  font-weight: 700;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+/* for categories and tags */
+.article-categories {
+    padding: 0.1em 0.6em 0.2em 0.8em;
+    margin: 0.1em;
+    font-weight: 400;
+    color: #FFF;/*文字色*/
+    background: #4052b5;
+    border: solid 1px #4052b5;/*線*/
+    border-radius: 5px;/*角の丸み*/
+}
+
+.article-categories a {
+    color: #FFF;/*文字色*/
+}
+
+.article-categories a:hover {
+    color: #FFF;/*文字色*/
+}
+
+.article-tags {
+    padding: 0.1em 0.6em 0.2em 0.8em;
+    margin: 0.1em;
+    font-weight: 400;
+    color: #4052b5;/*文字色*/
+    background: #FFF;
+    border: solid 1px #4052b5;/*線*/
+    border-radius: 5px;/*角の丸み*/
+}
+
+.article-tags a {
+    color: #4052b5;/*文字色*/
+}
+
+.article-tags a:hover {
+    color: #4052b5;/*文字色*/
+}

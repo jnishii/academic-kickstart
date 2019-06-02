@@ -1,6 +1,6 @@
 ---
 title: "電子情報通信学会ISS特別企画「学生ポスターセッション」優秀ポスター賞受賞"
-date: 2016-3-17
+date: 2016-03-17
 categories: ["research"]
 tags: ["motor control"]
 ---

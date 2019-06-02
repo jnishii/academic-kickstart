@@ -1,6 +1,6 @@
 ---
 title: "歩行解析の論文2本"
-date: 2015-8-1
+date: 2015-08-01
 categories: ["research"]
 tags: ["locomotion"," motor control"]
 ---

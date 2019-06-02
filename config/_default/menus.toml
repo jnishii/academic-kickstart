@@ -54,9 +54,9 @@
 
 #######
 [[main]]
-  name = "資料"
-  identifier = "materials"
-  url = "/materials"
+  name = "テキスト"
+  identifier = "misc"
+  url = "/misc"
   weight = 40
 
 ### submenu of materials are specified in the header of each page!

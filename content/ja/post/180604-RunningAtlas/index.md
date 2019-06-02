@@ -1,6 +1,6 @@
 ---
 title: "Running Atlas"
-date: 2018-06-4
+date: 2018-06-04
 categories: ["research"]
 tags: ["locomotion"]
 ---

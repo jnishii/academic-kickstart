@@ -1,6 +1,6 @@
 ---
 title: "ページレイアウトを変更しました．"
-date: 01-2015-06
+date: 2015-06-01
 categories: ["update"]
 link: false
 continue_link: false

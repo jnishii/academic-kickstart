@@ -1,6 +1,6 @@
 ---
 title: "Neural Computation 誌に論文掲載"
-date: 2015-7-20
+date: 2015-07-20
 categories: ["research"]
 tags: ["motor planning"," motor control"]
 ---

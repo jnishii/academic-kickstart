@@ -1,6 +1,6 @@
 ---
 title: "SI2015優秀講演賞受賞"
-date: 2016-1-27
+date: 2016-01-27
 categories: ["research"]
 tags: ["motor control"]
 ---

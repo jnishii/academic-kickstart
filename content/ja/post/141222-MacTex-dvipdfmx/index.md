@@ -2,7 +2,7 @@
 title: "dvipdfmxのwarning対処"
 date: 2014-12-22
 categories: ["comp"]
-tags: ["MacTeX,latex","mac"]
+tags: ["MacTeX","latex","mac"]
 ---
 
 MacTeX の dvipdfmx が謎のwarningを出す。

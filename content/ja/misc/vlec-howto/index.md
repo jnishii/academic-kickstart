@@ -3,7 +3,7 @@ title: ビデオ講義の作り方
 date: 2017-11-27
 menu:
   main:
-    parent: 'materials'
+    parent: 'misc'
     weight: 40
 ---
 
