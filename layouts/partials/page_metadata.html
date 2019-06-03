@@ -18,7 +18,6 @@
   {{ end }}
 
   {{ if not (in (slice "talk" "page") $page.Type) }}
-  {{ if $page.Params.Date }}
   <span class="article-date">
     {{ $date := $page.Lastmod.Format site.Params.date_format }}
     {{ if eq $page.Type "publication" }}
@@ -30,7 +29,6 @@
     {{ end }}
     <time>{{ $date }}</time>
   </span>
-  {{ end }}
   {{ end }}
 
   {{ if and (eq $is_list 1) (eq $page.Type "publication") }}
@@ -57,11 +55,24 @@
   <a href="{{ $page.RelPermalink }}#disqus_thread"><!-- Count will be inserted here --></a>
   {{ end}}
 
+<!--
+  {{ $taxonomy := "categories" }}
+  {{ with $page.Param $taxonomy }}
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder"></i>
+    {{ range $index, $value := . -}}
+      {{- if gt $index 0 }}, {{ end -}}
+      <a href="{{ (site.GetPage (printf "/%s/%s" $taxonomy (. | urlize))).RelPermalink }}">{{ . }}</a>
+    {{- end -}}
+  </span>
+  {{ end }}
+-->
   {{ partial "categories.html" $page }} <!--jun-->
   {{ partial "tags.html" $page }} <!--jun-->
 
   {{ if $share }}
-    {{ partial "share.html" $ }}
+    {{ partial "share.html" $page }}
   {{ end }}
 
 </div>

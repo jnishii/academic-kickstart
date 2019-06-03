@@ -64,9 +64,9 @@
   {{end}}
 
   <h3 class="article-title mb-1 mt-3" itemprop="name">
-    {{ if $item.Params.link }}
+    {{ if $item.Params.link }} <!--jun-->
       <a href="{{ $item.Params.link }}" itemprop="url">{{ $item.Title }}</a>
-  {{ else }}
+    {{ else }}
       <a href="{{ $item.RelPermalink }}" itemprop="url">{{ $item.Title }}</a>
     {{ end }}
   </h3>

@@ -1,5 +1,4 @@
-{{ partial "header.html" . }}
-{{ partial "navbar.html" . }}
+{{- define "main" -}}
 
 {{ partial "page_header.html" . }}
 
@@ -12,9 +11,9 @@
   {{ range $paginator.Pages }}
   <div>
     <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-    {{ partial "categories.html" . }} <!--jun-->
-    {{ partial "tags.html" . }} <!--jun-->
     <div class="article-style">
+     {{ partial "categories.html" . }} <!--jun-->
+     {{ partial "tags.html" . }} <!--jun-->
       {{ if .Params.summary }}
       {{ .Params.summary | plainify | emojify }}
       {{ else if .Params.abstract }}
@@ -28,5 +27,5 @@
 
   {{ partial "pagination" . }}
 </div>
-{{ partial "footer_container.html" . }}
-{{ partial "footer.html" . }}
+
+{{- end -}}

@@ -1,13 +1,15 @@
 ---
 title: "ColaboratoryでKeras-rl+OpenAI Gym (classical_control)"
 date: 2018-08-28
+NoHeadImage: true
 categories: ["comp"]
 tags: ["python,openAI Gym","colaboratory"]
 ---
 
-![](cartpole-kerasrl-216.mp4?resize=300,200)
-
 [google colaboratory](https://colab.research.google.com/)上で，[openAI Gym](https://gym.openai.com/)の[Classic Control](https://gym.openai.com/envs/#classic_control)を使って遊べることがわかったので，さらに[Keras-RL](https://keras-rl.readthedocs.io/en/latest/)を使ってDQL(Deep-Q Learning)を試してみた。colaboratoryは[Keras](https://keras.io/ja/)をサポートしているので，あっけなくデモが動いてめでたし。
+
+
+![](cartpole-kerasrl-216.mp4?resize=300,200)
 
 <!--more-->
 
