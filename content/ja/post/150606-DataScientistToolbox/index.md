@@ -7,6 +7,7 @@ tags: ["coursera","R"]
 
 Coursera.org にあったコース"[Data Scientist's Toolbox](https://www.coursera.org/course/datascitoolbox)"では何のお勉強をするのかなとのぞいてみた。
 1ヶ月間のコースで [R](http://www.r-project.org/) や [Rstudio](http://www.rstudio.com/), [Git](https://git-scm.com/) のインストール方法や使い方の基本の説明があった。
+<!--more-->
 
 修了認定証を希望の人は有料だが，不要なら無料で見れて，宿題を提出して評価してもらったりもできる。
 宿題は，クイズ問題に答えたり，R や Git をインストールした証拠(起動画面のスクリーンキャプチャ)をアップロードしたりすると合格になるらしい。

@@ -7,6 +7,8 @@ tags: ["brackets"]
 
 Adobe のオープンソースエディタ[Brackets](http://brackets.io/)が評判が
 良いのでインストールしてみた。
+<!--more-->
+
 ```
 brew cask install brackets
 ```

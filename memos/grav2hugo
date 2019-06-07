@@ -7,6 +7,13 @@ fi
 echo "processing $1..."
 
 gsed \
+-e 's|!\[.*\](https://www.youtube.com/watch?v=\(.*\))|{{< youtube "\#\1" >}}|' \
+$1 > /tmp/tmp.md
+
+mv /tmp/tmp.md $1
+
+exit 
+
 -e 's/^title: \(.*\)/title: "\1"/' \
 -e 's|date: \([0-9]*\)/\([0-9]*\)/\([0-9]*\)|date: \3-\1-\2|' \
 -e '/^published:/d' \
@@ -17,7 +24,3 @@ gsed \
 -e 's/ *tag: \(.*\)/tags: ["\1"]/' \
 -e 's/tags:\(.*\),/tags:\1","/' \
 -e 's/===/<!--more-->/' \
-$1 > /tmp/tmp.md
-
-mv /tmp/tmp.md $1
-

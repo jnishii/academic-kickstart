@@ -7,6 +7,8 @@ tags: ["atom"]
 
 emacs もいいが，たまには浮気してみようと思い[Atom](http://atom.io)をインストールしてみた．とりあえず以下のパッケージを追加した．
 
+<!--more-->
+
 - atomic-emacs
 - fizzy
 - japanese-wrap

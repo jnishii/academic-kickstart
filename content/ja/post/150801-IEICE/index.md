@@ -8,6 +8,8 @@ tags: ["locomotion"," motor control"]
 歩行解析の論文が2本ばかり電子情報通信学会論文誌に掲載されました。
 この春に博士号を取得した垣内田さんが第一著者で, めでたい限りです。
 
+<!--more-->
+
 ### その１
 - [垣内田翔子, 橋爪善光, 西井淳, 関節間シナジーに着目した歩行のコツの発見, 電子情報通信学会論文誌D, Vol.J98-D, No.7, pp.1108-1117, 2015](http://search.ieice.org/bin/summary.php?id=j98-d_7_1108&category=D&lang=J&year=2015&abst=)
 

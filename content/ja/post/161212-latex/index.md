@@ -6,8 +6,6 @@ categories: ["comp"]
 tags: ["latex"]
 ---
 
-![](images/ShareLaTeX.png?lightbox&resize=300)
-
 オンラインでLaTeX文書の編集・プレビューをできるShareLaTeXを使ってみた。
 インターネットさえ使えればLaTeX文書を作れて，共同編集もでき，履歴も残せる。
 有料版だと，Dropboxとの同期もできるようで，これまた魅力。

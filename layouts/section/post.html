@@ -1,0 +1,44 @@
+{{- define "main" -}}
+
+<div class="container">
+<div class="row">
+
+  <div class="col-12 col-lg-9">
+
+{{ partial "page_header.html" . }}
+
+<div class="media-body">
+
+  {{ with .Content }}
+  <div class="article-style" itemprop="articleBody">{{ . }}</div>
+  {{ end }}
+
+  {{ $paginator := .Paginate .Data.Pages }}
+  {{ range $paginator.Pages }}
+    {{ if eq $.Params.view 1 }}
+      {{ partial "li_list" . }}
+    {{ else if eq $.Params.view 3 }}
+      {{ partial "li_card" . }}
+    {{ else }}
+      {{ partial "li_compact" . }}
+    {{ end }}
+  {{ end }}
+
+  {{ partial "pagination" . }}
+
+</div>
+
+</div>
+  <div class="col-12 col-lg-3">
+    <div class="article-metadata">
+    <!--category & tag list-->
+      <h3>categories</h3>
+        {{ partial "all_categories.html" . }} <!--jun-->
+      <h3>tags</h3>
+        {{ partial "all_tags.html" . }}
+    </div>
+  </div>
+</div>
+</div>
+
+{{- end -}}

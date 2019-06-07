@@ -1,7 +1,7 @@
 ---
 title: "OpenAI gym用Dockerイメージ"
 date: 2018-09-01
-summary: 演習用のPython環境としてDockerイメージを作った...
+summary: 演習用のPython環境としてDockerイメージを作った
 categories: ["comp"]
 tags: ["python","openAI Gym"]
 ---

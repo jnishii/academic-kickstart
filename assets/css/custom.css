@@ -35,12 +35,12 @@ pre{
 .article-categories {
     padding: 0.0em 0.4em 0.0em 0.6em;
     margin: 0.1em;
-    font-weight: 400;
+    font-weight: 200;
     font-size: .8rem;
     color: #FFF;/*文字色*/
     background: #4052b5;
     border: solid 1px #4052b5;/*線*/
-    border-radius: 6px;/*角の丸み*/
+    border-radius: 4px;/*角の丸み*/
     display: inline-block;
 }
 
@@ -56,11 +56,11 @@ pre{
     padding: 0.0em 0.4em 0.0em 0.6em;
     margin: 0.1em;
     font-size: .8rem;
-    font-weight: 400;
+    font-weight: 200;
     color: #4052b5;/*文字色*/
     background: #FFF;
     border: solid 1px #4052b5;/*線*/
-    border-radius: 6px;/*角の丸み*/
+    border-radius: 4px;/*角の丸み*/
     display: inline-block;
 }
 
@@ -72,15 +72,43 @@ pre{
     color: #4052b5;/*文字色*/
 }
 
-
 video {
   width: 100%;
   height: auto;
 }
 
+.media.stream-item .stream-meta {
+  margin-top: 6px;
+}
 
 .media.stream-item img {
-  max-width: 200px;
-  max-height: 150px;  
+  max-width: 250px;
+  max-height: 200px;  
   object-fit: cover;
 }
+
+.media.stream-item .stream-meta {
+  margin-top: 6px;
+}
+
+.article-date {
+    display block;
+    float: right;
+    border-bottom: 1px solid #4052b5;
+    font-weight: 200;
+    font-style: italic;
+    font-size: .9rem;
+    color: #4052b5;/*文字色*/
+}
+
+.embed-ogimage{
+  align-content: center;
+  text-align:center;
+}
+
+.embed-ogimage img {
+  width: 800px;
+  height: auto;
+  object-fit: cover;
+}
+

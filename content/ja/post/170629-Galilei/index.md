@@ -1,11 +1,12 @@
 ---
-title: "ガリレオによるピサの斜塔での落下実験"
+title: ガリレオによるピサの斜塔での落下実験
 date: 2017-06-29
 categories: ["misc"]
 tags: ["physics"]
 ---
 
 [アリストテレス](https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%AA%E3%82%B9%E3%83%88%E3%83%86%E3%83%AC%E3%82%B9)は「重いものほど早く地面に落ちるものだ」と説明したが，[ガリレオ](https://ja.wikipedia.org/wiki/%E3%82%AC%E3%83%AA%E3%83%AC%E3%82%AA%E3%83%BB%E3%82%AC%E3%83%AA%E3%83%AC%E3%82%A4)はこの説に反対し，「空気などの抵抗がなければ，物体は重さに関係なく同じ速さで落下する」と主張した。この説を証明するために，ピサの斜塔から大きさの違う物体を落として，同時に着地することを確認したというエピソードがいろいろな本に書かれている一方で，[このエピソードはガリレオの弟子の創作だ](https://ja.wikipedia.org/wiki/%E3%82%AC%E3%83%AA%E3%83%AC%E3%82%AA%E3%83%BB%E3%82%AC%E3%83%AA%E3%83%AC%E3%82%A4)という説もある。
+<!--more-->
 
 岩波書店から邦訳が出版されている[ガリレオの著書「新科学対話(上)](https://www.iwanami.co.jp/book/b246998.html)」を読むと，物理実験に関するガリレオのマニアっぷりが伝わってきて面白い。ガリレオはピサ大学で学び，さらに教鞭をとっていた時代もあるので，実験マニアのガリレオが近所のピサの斜塔からいろいろな物体を落として落下時間を計測する実験(<font size="-1">人に当たるとあぶないから真似しないように</font>)をしてしたというのは本当じゃないかと想像するが，この本を読むと，その実験で確認した結果は「(空気中では)重いものほど早く落ちる」ということではないかと思われる。
 
@@ -23,3 +24,4 @@ tags: ["physics"]
 [ガリレオ](https://ja.wikipedia.org/wiki/%E3%82%AC%E3%83%AA%E3%83%AC%E3%82%AA%E3%83%BB%E3%82%AC%E3%83%AA%E3%83%AC%E3%82%A4)は，[アリストテレス](https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%AA%E3%82%B9%E3%83%88%E3%83%86%E3%83%AC%E3%82%B9)の様々な説に対して多くの反論をしているが，「新科学対話(上)」には「私の感服するアリストテレス — 殊に彼は，幾分でも考察に値すると思った問題は如何なるものでも論議することを欠かさなかったのですから…」という下りもあるので，非常に尊敬していたのではと思われる。
 実際，アリストテレスはガリレオよりも2,000年も前の人物だから，議論するに値する莫大な著書(<font size="-1">[Wikipedia情報](https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%AA%E3%82%B9%E3%83%88%E3%83%86%E3%83%AC%E3%82%B9)だと550巻くらいの著書があったとか…</font>)を残しているというだけでもすごい。
 
+{{<link src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Galileo_Galilei%2C_Discorsi_e_Dimostrazioni_Matematiche_Intorno_a_Due_Nuove_Scienze%2C_1638_%281400x1400%29.png/600px-Galileo_Galilei%2C_Discorsi_e_Dimostrazioni_Matematiche_Intorno_a_Due_Nuove_Scienze%2C_1638_%281400x1400%29.png" >}}

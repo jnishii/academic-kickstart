@@ -34,12 +34,6 @@
       <a href="{{ $item.RelPermalink }}" itemprop="url">{{ $item.Title }}</a>
     </h3>
 
-    {{ with $summary }}
-    <div class="article-style" itemprop="articleBody">
-      {{ . | truncate 135 | replaceRE  "<[^>]*>" "" }}
-      <a href="{{ $item.RelPermalink }}">(Read More…)</a>
-    </div>
-    {{ end }}
 
     <div class="stream-meta article-metadata">
 
@@ -71,6 +65,14 @@
       {{ end }}
     </div>
 
+    {{ with $summary }}
+    <div class="article-style" itemprop="articleBody">
+<!--      {{ . | truncate 135 | replaceRE  "<[^>]*>" "" }}-->
+      {{ . | truncate 135 }}
+      <a href="{{ $item.RelPermalink }}">(Read More…)</a>
+    </div>
+    {{ end }}
+
     {{ if $show_buttons }}
     <div class="btn-links">
       {{ partial "page_links" (dict "page" $item "is_list" 1) }}
@@ -89,7 +91,7 @@
 
     {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
     {{ with $resource }}
-    {{ $image := .Resize "200x" }}
+    {{ $image := .Resize "250x" }}
     <a href="{{ $item.RelPermalink }}">
       <img src="{{ $image.RelPermalink }}" itemprop="image">
     </a>

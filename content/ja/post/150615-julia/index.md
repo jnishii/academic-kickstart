@@ -8,6 +8,7 @@ tags: ["julia"]
 [julia のページ](http://julialang.org/)に, いろいろな科学計算用のプログラミング言語の計算速度比較の表がある。
 matlab や octave は Toolbox が豊富なのでコーディングが楽なことが多いけど，重い計算には向かないのがよくわかる。
 案外がんばっているのは mathematica. 
+<!--more-->
 
 julia は[開発動機](http://julialang.org/blog/2012/02/why-we-created-julia/)に
 

@@ -6,7 +6,10 @@ tags: ["mac","sed"]
 ---
 
 Macのsedでメタ文字 `\+`が使えなくて困ったが，gnu-sedをインストールすればいいことがわかった．めでたい．
+<!--more-->
+
 ```
 $ brew install gnu-sed
 ```
-コマンドはgsed
+
+コマンド名は`gsed`

@@ -73,7 +73,8 @@
 
   {{ with $summary }}
   <div class="article-style" itemprop="articleBody">
-    {{ . }}
+    {{ . | replaceRE  "<[^>]*>" "" }}
+    <a href="{{ $item.RelPermalink }}">(Read More…)</a>
   </div>
   {{ end }}
 

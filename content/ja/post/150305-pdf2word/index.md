@@ -5,5 +5,5 @@ categories: ["comp"]
 tags: ["pdf","word"]
 ---
 
-pdf形式のファイルをword形式に変換するのは, adobe acrobat でもできて，
+pdf形式のファイルをword形式に変換するのは, adobe acrobat でもできる。
 数式もほどほどには変換してくれるらしい．

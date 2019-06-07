@@ -5,7 +5,7 @@ categories: ["research"]
 tags: ["locomotion"]
 ---
 
-![](https://www.youtube.com/watch?v=rVlhMGQgDkY)
+{{< youtube "#rVlhMGQgDkY" >}}
 
 <!--more-->
 
@@ -17,7 +17,7 @@ google の巨大介した頭脳とこんなロボットが合体したら，お�
 Boston Dynamicsの創設者は [CMU](http://www.cmu.edu/) と [MIT](http://www.mit.edu/) で Leg Laboratory を運営していた[Marc Raibert](https://en.wikipedia.org/wiki/Marc_Raibert)。
 その開発の歴史が詰まったYoutubeの動画は以下にあります。
 
-![](https://www.youtube.com/watch?v=XFXj81mvInc)
+{{< youtube "#XFXj81mvInc" >}}
 
 ちょっと検索したついでにRaibertによる作文講座[Good Writing by Marc H. Raibert](http://www.cs.cmu.edu/~pausch/Randy/Randy/raibert.htm)を見つけた。
 ```
