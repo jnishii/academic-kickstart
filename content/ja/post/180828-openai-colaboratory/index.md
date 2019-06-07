@@ -2,7 +2,7 @@
 title: "ColaboratoryでOpenAI gym"
 date: 2018-08-28
 categories: ["comp"]
-tags: ["python,openAI Gym","colaboratory"]
+tags: ["python","openAI Gym","colaboratory"]
 ---
 
 [openAI Gym](https://gym.openai.com/)を[google colaboratory](https://colab.research.google.com/)で遊ぼうとすると，[Algorithm](https://gym.openai.com/envs/#algorithmic)以外の環境ではアニメーション表示がどうするかが問題になるが，一応なんとかなることがわかった。

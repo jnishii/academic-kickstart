@@ -1,6 +1,7 @@
 ---
 title: "OpenAI gym用Dockerイメージ"
 date: 2018-09-01
+summary: 演習用のPython環境としてDockerイメージを作った...
 categories: ["comp"]
 tags: ["python","openAI Gym"]
 ---
@@ -9,8 +10,6 @@ tags: ["python","openAI Gym"]
 openAI Gymを遊ぶ演習をできないかなと思ったのがきっかけ。
 そのためには実行環境が必要だが，大学の演習用パソコンにインストールをお願いするのはいろんな問題で結構大変。
 となると，学生の皆さんが持っているパソコンにインスールする方法が候補になるが，OSは大抵 Windows になる。残念ながら，openAI Gym環境をWindowsにインストールしようとするとトラブルが多いらしく，多人数の演習での対応は難しそう。
-
-<!--more-->
 
 Virtual Box上にUbuntuを走らすことも検討したが，重い上に，変なバグでキーボード操作等に不具合が生じることがあったので却下。
 いろいろ考えた挙げ句，google colaboratory を使うか，Dockerでjupyter環境を用意するかが良いかなと思い，この2案を検討中。

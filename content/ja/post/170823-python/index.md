@@ -1,7 +1,7 @@
 ---
 title: "Python/Jupyter Notebook"
 date: 2017-08-23
-mathjax: false
+summary: Python/Jupyter Notebookのインストールについて...
 categories: ["comp"]
 tags: ["python"]
 ---

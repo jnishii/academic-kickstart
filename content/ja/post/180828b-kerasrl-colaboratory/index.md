@@ -1,18 +1,17 @@
 ---
 title: "ColaboratoryでKeras-rl+OpenAI Gym (classical_control)"
 date: 2018-08-28
-NoHeadImage: true
+image:
+  preview_only: true
 categories: ["comp"]
-tags: ["python,openAI Gym","colaboratory"]
+tags: ["python","openAI Gym","colaboratory"]
 ---
+
+{{< video src="cartpole-kerasrl-216.mp4" width="300">}}
 
 [google colaboratory](https://colab.research.google.com/)上で，[openAI Gym](https://gym.openai.com/)の[Classic Control](https://gym.openai.com/envs/#classic_control)を使って遊べることがわかったので，さらに[Keras-RL](https://keras-rl.readthedocs.io/en/latest/)を使ってDQL(Deep-Q Learning)を試してみた。colaboratoryは[Keras](https://keras.io/ja/)をサポートしているので，あっけなくデモが動いてめでたし。
 
-
-![](cartpole-kerasrl-216.mp4?resize=300,200)
-
 <!--more-->
-
 ### 準備
 必要なものをインストール。[前の記事](../180828-openai-colaboratory)とほぼ同様だが，keras-rlも追加。また，今回はcolaboratory上にアニメーションは表示しないことにするので，pyvirtualdisplayはインストールしない。
 
@@ -88,15 +87,20 @@ dqn.save_weights('dqn_{}_weights.h5f'.format(ENV_NAME), overwrite=True)
 
 学習前
 
-![](cartpole-kerasrl-0.mp4?resize=300,200)
+<!--![](cartpole-kerasrl-0.mp4?resize=300,200)-->
+
+{{< video src="cartpole-kerasrl-0.mp4" width="300">}}
 
 64エピソード後
 
-![](cartpole-kerasrl-64.mp4?resize=300,200)
+<!--![](cartpole-kerasrl-64.mp4?resize=300,200)-->
+
+{{< video src="cartpole-kerasrl-64.mp4" width="300">}}
 
 216エピソード後
 
-![](cartpole-kerasrl-216.mp4?resize=300,200)
+<!--![](cartpole-kerasrl-216.mp4?resize=300,200)-->
+{{< video src="cartpole-kerasrl-216.mp4" width="300">}}
 
 [MuJoCo](https://gym.openai.com/envs/#mujoco)の楽しげな物理シミュレシーションで遊ぼうと，Keras-rlの[デモ(ddpg_mujoco.py)](https://github.com/keras-rl/keras-rl/blob/master/examples/ddpg_mujoco.py)を動かそうとしたが，そもそもMuJoCoの導入がうまくいかない。
 MuJoCoはライセンスの問題とかもあるので，さっさと[Roboschool](https://blog.openai.com/roboschool/)で試してみるか。

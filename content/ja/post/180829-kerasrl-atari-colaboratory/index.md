@@ -2,10 +2,11 @@
 title: "ColaboratoryでKeras-rl+OpenAI Gym (atari)"
 date: 2018-08-29
 categories: ["comp"]
+image:
+  preview_only: true
 tags: ["python","openAI Gym","colaboratory"]
 ---
 
-![](atari-kerasrl-2000.mp4?resize=300,200)
 
 [google colaboratory](https://colab.research.google.com/)+[openAI Gym](https://gym.openai.com/)+[Keras-RL](https://keras-rl.readthedocs.io/en/latest/)の続編。今度はGymの[Atari](https://gym.openai.com/envs/#atari)を試してみた。
 
@@ -166,12 +167,14 @@ elif args.mode == 'test':
 
 学習前
 
-![](atari-kerasrl-0.mp4?resize=300,200)
+<!--![](atari-kerasrl-0.mp4?resize=300,200)-->
+{{<video src="atari-kerasrl-0.mp4" width="300" >}}
 
 
 学習中(どの時点のものか未解読)
 
-![](atari-kerasrl-2000.mp4?resize=300,200)
+<!--![](atari-kerasrl-2000.mp4?resize=300,200)-->
+{{<video src="atari-kerasrl-2000.mp4" width="300" >}}
 
 
 ### リンク

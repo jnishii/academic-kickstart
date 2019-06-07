@@ -7,6 +7,8 @@ tags: ["python"]
 ---
 
 pyenvでanacondaをインストールしようとしたが，以下のようにエラーが出る。
+<!--more-->
+
 ```
 $ pyenv install anaconda3-4.4.0
 Downloading Anaconda3-4.4.0-Linux-x86_64.sh...

@@ -1,6 +1,7 @@
 ---
 title: "MacTeX on El Capitan"
 date: 2015-10-07
+summary: El CapitanにMacTeXを導入した...
 categories: ["comp"]
 tags: ["MacTeX","latex","mac"]
 ---
@@ -8,7 +9,6 @@ tags: ["MacTeX","latex","mac"]
 誘惑に負けてMac OSを最新版のEl Capitanにしてしまった。
 Mac OSの新バージョンが出るのはいつも今頃の新学期の準備やら科研費やらのシーズンで，以前うっかりアップデートしてTeXが動かなくなって慌てることがあった。
 今回はしばらく様子を見てからと思いながら，Macからのお知らせにつられて，ついプシッとアップデートのクリックをしてしまった。で，やっぱりTeXまわりで困ってしまった。
-
 
 ### El Capitan導入後にしたこと
 

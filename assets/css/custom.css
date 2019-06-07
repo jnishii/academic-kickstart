@@ -33,13 +33,15 @@ pre{
 
 /* for categories and tags */
 .article-categories {
-    padding: 0.1em 0.4em 0.2em 0.6em;
+    padding: 0.0em 0.4em 0.0em 0.6em;
     margin: 0.1em;
     font-weight: 400;
+    font-size: .8rem;
     color: #FFF;/*文字色*/
     background: #4052b5;
     border: solid 1px #4052b5;/*線*/
-    border-radius: 5px;/*角の丸み*/
+    border-radius: 6px;/*角の丸み*/
+    display: inline-block;
 }
 
 .article-categories a {
@@ -51,13 +53,15 @@ pre{
 }
 
 .article-tags {
-    padding: 0.1em 0.4em 0.2em 0.6em;
+    padding: 0.0em 0.4em 0.0em 0.6em;
     margin: 0.1em;
+    font-size: .8rem;
     font-weight: 400;
     color: #4052b5;/*文字色*/
     background: #FFF;
     border: solid 1px #4052b5;/*線*/
-    border-radius: 5px;/*角の丸み*/
+    border-radius: 6px;/*角の丸み*/
+    display: inline-block;
 }
 
 .article-tags a {
@@ -66,4 +70,17 @@ pre{
 
 .article-tags a:hover {
     color: #4052b5;/*文字色*/
+}
+
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+
+.media.stream-item img {
+  max-width: 200px;
+  max-height: 150px;  
+  object-fit: cover;
 }

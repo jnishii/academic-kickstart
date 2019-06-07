@@ -1,3 +1,5 @@
 find . -name 'item.md' | sed -e 's/item.md//'|xargs -I{} mv {}item.md {}index.md
 find . -name '*.jpg' | while read f; do ln -sf $f .${f%/*}/featured.jpg; done
 find . -name '*.png' | while read f; do ln -sf $f .${f%/*}/featured.png; done
+
+find . -name 'index.md' | sed -e 's|!\[.*\](https://www.youtube.com/watch?v=\(.*\))|{{< youtube "\#\1" >}}|' post/160225-AtlasByBostonDynamics/index.md |xargs -I{} mv {}index.md 
