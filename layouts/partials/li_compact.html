@@ -36,7 +36,8 @@
 
     {{ with $summary }}
     <div class="article-style" itemprop="articleBody">
-      {{ . | truncate 135 }}
+      {{ . | truncate 135 | replaceRE  "<[^>]*>" "" }}
+      <a href="{{ $item.RelPermalink }}">(Read More…)</a>
     </div>
     {{ end }}
 
