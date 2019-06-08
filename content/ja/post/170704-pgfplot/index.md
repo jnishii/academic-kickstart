@@ -1,10 +1,10 @@
 ---
 title: "PGFplots"
 date: 2017-07-04
-publish_date: 2017-07-04
-lightbox: true
 categories: ["comp"]
 tags: ["latex"]
+image:
+  preview_only: true
 ---
 
 不幸にして最近まで知らなかったが，LaTeX上で関数やデータを可視化するのにPGFPlotsが便利。
@@ -39,7 +39,6 @@ LaTeXファイルでデータファイルを読み込んでグラフ化するこ
 
 ![](images/pgfplots-sample-figure1.png)
 
-
 ```
 \begin{tikzpicture}
 \begin{axis}[axis lines=center, grid=both, samples=100, domain=-1.5:4]
@@ -52,6 +51,7 @@ LaTeXファイルでデータファイルを読み込んでグラフ化するこ
 ```
 
 ### 少し細かい設定をした例
+
 ![](images/pgfplots-sample-figure2.png)
 
 ```
@@ -92,6 +92,7 @@ LaTeXファイルでデータファイルを読み込んでグラフ化するこ
 
 当然，`tikzpicture`環境をたくさん使うことで，１つのLaTeX文書中にグラフをいくつも埋め込むこともできる。
 このとき，個々のグラフのpdfファイルを個別に出力したい時には`pdflatex`を利用し，ヘッダ部に少し設定を追加する。
+
 ```
 \documentclass[pdflatex,ja=standard]{bxjsarticle}  %<= pdflatexを使うための文書クラス定義
 \usepackage{pgfplots}
