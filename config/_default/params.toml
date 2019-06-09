@@ -53,10 +53,14 @@ time_format = "3:04 PM"
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "nishii [at] yamaguchi-u.ac.jp"
 phone = ""
-address = "山口県山口市吉田16771"
+address = "山口県山口市吉田1677-1"
+email_form = false
+
+# Access by jun
+room = "山口大学吉田キャンパス総合研究棟３０３号室"
+room_url ="http://bcl.sci.yamaguchi-u.ac.jp/access"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
-office_hours = ""
 
 # Enter an optional link for booking appointments (e.g. calendly.com).
 #appointment_url = "https://calendly.com"
@@ -86,10 +90,10 @@ contact_links = [
 #   1: Google Maps
 #   2: OpenStreetMap (Mapnik)
 #   3: OpenStreetMap (Mapbox)
-map = 0
+map = 2
 map_api_key = ""
-latitude = "37.4275"
-longitude = "-122.1697"
+latitude = "34.1469698"
+longitude = "131.4713021"
 zoom = 15
 
 ############################

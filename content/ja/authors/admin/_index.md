@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Jun Nishii
+name: 西井 淳
 
 # Username (this should match the folder name)
 authors:
@@ -10,27 +10,32 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Informatics
+role: 山口大学大学院創成科学研究科教授
 
 # Organizations/Affiliations
 organizations:
 - name: Yamaguchi University
   url: "http://www.yamaguchi-u.ac.jp"
 
+# whoami
+who:
+- 山口大学大学院創成科学研究科教授
+- 理学部物理・情報科学科情報科学コース担当
+- 研究室&colon; [生体情報システム研究室](http://bcl.sci.yamaguchi-u.ac.jp)
+
+# question
+question:
+- 質問等ありましたら随時おいで下さい。 ただ、臨時のセミナーや会議その他雑用がよく入りますので、事前にメール等で連絡をいただけると確実にお会いできます。
+
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include brain modeling, biomechanics, and skill science.
+bio: 
 
 interests:
-- Neural Networks
-- Biomechanics
-- Skill Science
-
-education:
-  courses:
-  - course: PhD in Engineering
-    institution: University of Tokyo
-    year: 1996
-
+- スキル・暗黙知の発見
+- 脳の学習モデル
+- 運動制御理論
+- 行動の進化モデル
+- その他
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -61,7 +66,24 @@ email: ""
 #user_groups:
 #- Researchers
 #- Visitors
+
+# 所属学会
+societies:
+- 電子情報通信学会
+- 日本神経回路学会
+- 人工知能学会
+- Motor Control研究会
+
+# 社会活動
+committees:
+- 日本神経回路学会 理事 (2016/1-)
+- 科学研究費補助金第１段審査委員 (2016 - 2017)
+- 電子情報通信学会 ニューロコンピューティング研究専門委員会専門委員 (2013/6-2017/5 )
+- 電子情報通信学会 ニューロコンピューティング研究専門委員会委員長 (2012/6-2013/5 )
+- 日本神経回路学会　推薦委員・選考委員 (2012/01-)
+- 電子情報通信学会 ニューロコンピューティング研究専門委員会副委員長 (2011/6-2012/5 )
+- 電子情報通信学会 常任査読委員 (2010/8-)
+
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
+脳の情報処理メカニズムを情報科学的視点で行う研究を主にしています。神経系の情報処理アルゴリズムのモデルを構築する他，実際の人や動物の運動解析を行うことで，脳の働きを推定する研究も行っています。
