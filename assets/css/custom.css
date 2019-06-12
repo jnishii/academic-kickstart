@@ -13,12 +13,12 @@ h2 {
   font-weight: 600;
 }
 h3 {
-  font-weight: 700;
+  font-weight: 600;
   margin-top: 1.5rem;
   font-size: 1.2rem;
 }
 h4, h5, h6 {
-  font-weight: 700;
+  font-weight: 600;
   margin-top: 1rem;
   font-size: 1rem;
 }
@@ -28,19 +28,19 @@ code{
 }
 
 pre{
-  font-size: .85rem;
+  font-size: .9rem;
 }
 
 /* for categories and tags */
 .article-categories {
-    padding: 0.0em 0.4em 0.0em 0.6em;
-    margin: 0.1em;
-    font-weight: 200;
-    font-size: .8rem;
+    padding: 0.0em 0.3em 0.0em 0.4em;
+    margin: 0.1em 0.0em 0.1em 0.0em;
+    font-weight: 100;
+    font-size: .7rem;
     color: #FFF;/*文字色*/
     background: #4052b5;
     border: solid 1px #4052b5;/*線*/
-    border-radius: 4px;/*角の丸み*/
+    border-radius: 3px;/*角の丸み*/
     display: inline-block;
 }
 
@@ -53,14 +53,14 @@ pre{
 }
 
 .article-tags {
-    padding: 0.0em 0.4em 0.0em 0.6em;
-    margin: 0.1em;
-    font-size: .8rem;
-    font-weight: 200;
+    padding: 0.0em 0.3em 0.0em 0.4em;
+    margin: 0.1em 0.0em 0.1em 0.0em;
+    font-size: .7rem;
+    font-weight: 100;
     color: #4052b5;/*文字色*/
     background: #FFF;
     border: solid 1px #4052b5;/*線*/
-    border-radius: 4px;/*角の丸み*/
+    border-radius: 3px;/*角の丸み*/
     display: inline-block;
 }
 
@@ -87,18 +87,19 @@ video {
   object-fit: cover;
 }
 
-.media.stream-item .stream-meta {
-  margin-top: 6px;
-}
-
 .article-date {
     display block;
     float: right;
     border-bottom: 1px solid #4052b5;
     font-weight: 200;
     font-style: italic;
-    font-size: .9rem;
+    font-size: .7rem;
     color: #4052b5;/*文字色*/
+}
+
+.media.stream-item .article-title,
+.card-simple .article-title {
+  font-size: 1.1rem;
 }
 
 .embed-ogimage{
