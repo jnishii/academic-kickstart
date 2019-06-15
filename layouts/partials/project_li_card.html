@@ -1,0 +1,43 @@
+{{ $item := .item }}
+{{ $widget := .widget }}
+
+{{ $link := .link }}
+{{ $target := .target }}
+
+<!-- featured video by J -->
+{{ $resource_type := "unknown" }}  
+{{ $resource := ($item.Resources.ByType "mp4").GetMatch "*featured*" }}
+{{ with $resource }}
+  {{ $resource_type = "video" }}
+{{end}}
+<!-- untile here -->
+
+{{ $image := ($item.Resources.ByType "image").GetMatch "*featured*" }}
+{{ with $image }}
+  {{ $resource = . }}
+  {{ $resource_type = "image" }}
+{{ end }}
+{{ $js_tag_classes := delimit (apply (apply $item.Params.tags "replace" "." " " "-") "printf" "js-id-%s" ".") " " }}
+
+<div class="project-card project-item isotope-item {{ $js_tag_classes | safeHTMLAttr }}">
+  <div class="card">
+    {{ with $resource }}
+      {{ if eq $resource_type "video" }}
+<a href="{{ $item.RelPermalink }}">
+  <video src="{{ $resource.RelPermalink }}" itemprop="video" style="width:200px;height:150px;">
+</a>
+      {{ else }}
+    {{ $image := .Resize (printf "550x q90 %s") }}
+    <a href="{{ $link }}" {{ $target | safeHTMLAttr }} class="card-image hover-overlay">
+      <img src="{{ $image.RelPermalink }}" alt="" class="img-responsive">
+    </a>
+      {{end}}
+    {{ end }}
+    <div class="card-text">
+      <h4><a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{ $item.Title | markdownify | emojify }}</a></h4>
+      <div class="card-desription">
+        {{ with $item.Params.summary }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+      </div>
+    </div>
+  </div>
+</div>

@@ -54,6 +54,15 @@
     {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}
   {{ end }}
 
+  <!-- featured video by J -->
+  {{ $resource := ($item.Resources.ByType "mp4").GetMatch "*featured*" }}
+  {{ with $resource }}
+  <a href="{{ $item.RelPermalink }}">
+    <video src="{{ $resource.RelPermalink }}" itemprop="video" style="width:200px;height:150px;">
+  </a>
+  {{end}}
+  <!-- untile here -->
+
   {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
   {{ $anchor := $item.Params.image.focal_point | default "Smart" }}
   {{ with $resource }}
