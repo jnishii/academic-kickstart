@@ -38,7 +38,7 @@ subtitle = ""
     tag = "motor control"
 
   [[content.filter_button]]
-    name = "Music"
+    name = "music"
     tag = "music"
 
 [design]

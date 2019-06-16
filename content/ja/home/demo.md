@@ -41,9 +41,9 @@ subtitle = ""
 
 [advanced]
  # Custom CSS. 
- css_style = ""
+ css_style = "padding: 5em 0em; background-size: cover; background-position: center;"
  
  # CSS class.
  css_class = ""
 +++
-Welcome
+test
