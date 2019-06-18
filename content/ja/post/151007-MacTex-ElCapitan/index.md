@@ -3,7 +3,7 @@ title: "MacTeX on El Capitan"
 date: 2015-10-07
 summary: El CapitanにMacTeXを導入した...
 categories: ["comp"]
-tags: ["MacTeX","latex","mac"]
+tags: ["latex","mac"]
 ---
 
 誘惑に負けてMac OSを最新版のEl Capitanにしてしまった。

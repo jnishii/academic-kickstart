@@ -2,7 +2,7 @@
 title: "MacTeX on High Sierra"
 date: 2017-10-27
 categories: ["comp"]
-tags: ["MacTeX","latex","mac"]
+tags: ["latex","mac"]
 ---
 
 科研費の書類をだしたのでMac OSをHigh Sierraにした。

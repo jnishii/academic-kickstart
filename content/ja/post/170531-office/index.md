@@ -3,7 +3,7 @@ title: "Office for Mac"
 date: 2017-05-31
 lightbox: true
 categories: ["comp"]
-tags: ["Office","mac"]
+tags: ["mac"]
 ---
 
 Office for Mac がなんだかえらく重くなってしまい，エクセルのシートに"◯"を一つ記入するだけで3分くらいかかったりして，スローライフな気分。<!--more-->
