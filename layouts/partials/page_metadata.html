@@ -18,6 +18,7 @@
   {{ end }}
 
   {{ if not (in (slice "talk" "page") $page.Type) }}
+  {{with $page.Params.Date}} <!--jun-->
   <span class="article-date">
     {{ $date := $page.Lastmod.Format site.Params.date_format }}
     {{ if eq $page.Type "publication" }}
@@ -29,6 +30,7 @@
     {{ end }}
     <time>{{ $date }}</time>
   </span>
+  {{ end }} <!--jun-->
   {{ end }}
 
   {{ if and (eq $is_list 1) (eq $page.Type "publication") }}

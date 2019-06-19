@@ -86,7 +86,7 @@
     {{ $resource := ($item.Resources.ByType "mp4").GetMatch "*featured*" }}
     {{ with $resource }}
     <a href="{{ $item.RelPermalink }}">
-      <video src="{{ $resource.RelPermalink }}" itemprop="video" style="width:200px;height:150px;">
+      <video src="{{ $resource.RelPermalink }}" itemprop="video" style="width:250px;height:200px;">
     </a>
     {{end}}
     <!-- untile here -->
