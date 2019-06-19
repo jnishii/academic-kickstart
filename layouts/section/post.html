@@ -1,5 +1,6 @@
 {{- define "main" -}}
 
+
 <div class="container">
 <div class="row">
 
@@ -13,7 +14,13 @@
   <div class="article-style" itemprop="articleBody">{{ . }}</div>
   {{ end }}
 
-  {{ $paginator := .Paginate .Data.Pages }}
+  {{ $paginator := "" }} <!--jun-->
+  {{ if .IsHome }}
+    {{ $paginator = .Paginate (where (where .Site.Pages "Type" "home") "IsPage" true) }}
+  {{ else }}
+    {{ $paginator = .Paginate .Data.Pages }}
+  {{ end }}
+
   {{ range $paginator.Pages }}
     {{ if eq $.Params.view 1 }}
       {{ partial "li_list" . }}
