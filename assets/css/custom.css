@@ -49,10 +49,11 @@ hr {
      font-weight: 400;
  }
 
- .navbar-light .navbar-nav>.nav-item>.nav-link, .navbar-light .navbar-nav>.nav-item>.nav-link:focus, .navbar-light .navbar-nav>.nav-item>.nav-link:hover {
+.navbar-light .navbar-nav>.nav-item>.nav-link, .navbar-light .navbar-nav>.nav-item>.nav-link:focus, .navbar-light .navbar-nav>.nav-item>.nav-link:hover {
     font-weight: 400;
 }
 
+/* weight of fa-icon */
 .fa, .fas {
     font-weight: 600;
 }
