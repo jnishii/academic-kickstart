@@ -38,6 +38,25 @@ hr {
   border: none;
 }
 
+/* title in navbar */
+.navbar-light .navbar-brand {
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+/* navbar items */
+.navbar-light .navbar-nav>li.nav-item>a.active, .navbar-light .navbar-nav>li.nav-item>a.active:focus, .navbar-light .navbar-nav>li.nav-item>a.active:hover {
+     font-weight: 400;
+ }
+
+ .navbar-light .navbar-nav>.nav-item>.nav-link, .navbar-light .navbar-nav>.nav-item>.nav-link:focus, .navbar-light .navbar-nav>.nav-item>.nav-link:hover {
+    font-weight: 400;
+}
+
+.fa, .fas {
+    font-weight: 600;
+}
+
 /* for categories and tags */
 .article-categories {
     padding: 0.1em 0.3em 0.0em 0.4em;

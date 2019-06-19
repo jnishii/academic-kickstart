@@ -4,13 +4,18 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
+  name = "ホーム"
+  url = "/"
+  weight = 1
+
+[[main]]
   name = "研究"
-  url = "/about/#projects"
+  url = "/who/#projects"
   weight = 10
 
 [[main]]
   name = "自己紹介"
-  url = "#about"
+  url = "/who/#about"
   weight = 20
 
 ### Submenu of `classes`
