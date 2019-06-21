@@ -10,12 +10,12 @@
 
 [[main]]
   name = "研究"
-  url = "/who/#projects"
+  url = "/study"
   weight = 10
 
 [[main]]
   name = "自己紹介"
-  url = "/who/#about"
+  url = "/who"
   weight = 20
 
 ### Submenu of `classes`
