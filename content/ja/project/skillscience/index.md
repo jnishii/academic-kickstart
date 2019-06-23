@@ -1,11 +1,8 @@
 ---
-title: 運動計測グループ
+title: 運動計測チーム
 summary: データサイエンスでスポーツのコツを明らかにする
 tags:
 - biomechanics
-image:
-  caption: Cyclogram by Bernstein
-  focal_point: Smart
 weight: 20
 ---
 

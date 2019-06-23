@@ -1,5 +1,5 @@
 ---
-title: 学習理論
+title: 学習モデル・チーム
 summary: コツを発見する神経回路網モデル
 tags:
 - Neural Network

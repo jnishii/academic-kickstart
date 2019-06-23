@@ -1,10 +1,11 @@
 ---
-title: "音楽・表現グループ"
+title: "音楽・表現技術チーム"
+summary: "音楽などによる感情表現を理論的に考える"
 tags:
 - music
 - expression
 image:
-  caption: Music Progression
+  caption: from Matthew passion
   focal_point: Smart
 weight: 60
 ---

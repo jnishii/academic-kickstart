@@ -1,11 +1,12 @@
 ---
-title: シミュレーション・グループ
+title: シミュレーション・チーム
 summary: 多足歩行ロボットシミュレーションを用いた構成論的研究
 tags:
 - legged robot
 image:
   caption: 多足歩行ロボットシミュレーション
   focal_point: Smart
+  preview_only: true
 weight: 10
 ---
 
