@@ -24,7 +24,7 @@
     {{ with $resource }}
       {{ if eq $resource_type "video" }}
 <a href="{{ $item.RelPermalink }}">
-  <video src="{{ $resource.RelPermalink }}" itemprop="video" style="width:200px;height:150px;">
+  <video src="{{ $resource.RelPermalink }}" itemprop="video" style="width:100%;height:100%;">
 </a>
       {{ else }}
     {{ $image := .Resize (printf "550x q90 %s") }}

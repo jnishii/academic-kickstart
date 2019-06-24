@@ -6,7 +6,7 @@ tags:
 image:
   caption: Music Progression
   focal_point: Smart
-weight: 60
+weight: 90
 ---
 
 ### 楽曲解析

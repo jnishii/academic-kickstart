@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 1  # Order that this section will appear.
 
 title = "Projects"
-subtitle = ""
+subtitle = "最近の研究室内の研究チームです"
 
 [content]
   # Page type to display. E.g. project.
@@ -81,5 +81,3 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-
-最近の研究室内の研究グループです。
