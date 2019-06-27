@@ -15,7 +15,7 @@
 
 [[main]]
   name = "自己紹介"
-  url = "/who"
+  url = "/study/#about"
   weight = 20
 
 ### Submenu of `classes`
