@@ -1,30 +1,25 @@
 ---
-title: 運動の最適化理論
-summary: 脳はエネルギー効率の良い運動を学習しようとしている
+title: motor planning
 tags:
-- biomechanics
-- motor control
+- motor planning
 image:
-  caption: Photo by Edward Muybridge
+  caption: ""
   focal_point: Smart
-weight: 30
+weight: 10
 ---
 
-### ウォーク・トロット・ギャロップの謎
+### Why do legged animals change their gait pattern?
 
-![](The_Horse_in_Motion.jpg)
+![Muybridge 1886](The_Horse_in_Motion.jpg)
 
-馬や猫、ナナフシ、ゴキブリなど、多くの多足歩行動物は、移動速度によって歩行パターンを変化させます。 この歩行パターンの変化が、移動に要するエネルギー消費とどのような関係にあるかを、理論的に考察してきました。
-具体的には，ロボット工学の手法を利用して，最もエネルギー消費を抑える足の振り幅，足の運動周期等を数値計算により求め， その結果を実際の歩行パターンの特徴と比較します． 
+Legged animals change their gait pattern according to their locomotion speed, e.g., walking, trotting, and galloping. Our analysis by computer simulations and theoretical investigation explain that many characteristics of locomotor parameters observed in many legged animals, e.g., step length, stride period, and gait transition, are the results of the optimization based on energetic efficiency.
 
 ---
+### How is an arm reaching trajectory selected?
 
-その結果，__多足歩行動物の歩行運動はエネルギー消費を最小に抑える合理的な運動である__ ことを示唆する結果を得てきました．
+In order to reach our arm to a given target, there are infinite number of choices in the selection of arm joint trajectory.
+Many theoretical studies proposed criterion that explain the characteristics of the arm reaching trajectory, e.g., minimum jerk model, minimum torque change model, and minimum endpoint variance model.
 
-### 腕を動かすための運動計画
-
-目の前にあるコップをつかむために手を伸ばすとき，腕の動かす経路や速度の選び方は無数にあります。
-先行研究では，腕の動きのなめらかさに注目したジャーク最小仮説，トルク変化最小仮説や，終端での手先のぶれを抑えることに注目した終点分散最小仮説等が有力な候補として議論されています。
-私たちは，腕の動かし方についても歩行の場合と同様に消費エネルギー最小仮説で説明できると考え，この仮説の妥当性を説明するための理論的研究を行っています。
+We have shown that many characteristics of the arm reaching trajectory can also be explained by the minimum energetic cost model, the same criterion that explains the characteristics of locomotor patterns.
 
 [Related papers](../papers/#planning)
