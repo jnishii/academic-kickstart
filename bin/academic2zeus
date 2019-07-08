@@ -1,6 +1,14 @@
 #!/bin/bash
-hugo -s ${HOME}/Sites/hugo-academic/ \
-	-b /~jun/ \
-	-d ${HOME}/mnt/zeus/jun/public_html/hugo
 
+SOURCE=${HOME}/Sites/hugo-academic/
+DEST=${HOME}/mnt/zeus/jun/public_html/hugo
+
+hugo -s ${SOURCE}\
+	-b /~jun/ \
+	-d  ${DEST}\
+	--cleanDestinationDir
+
+(cd ${DEST}; ln -sf ../custom/download .)
+
+#			-b http://bcl.sci.yamaguchi-u.ac.jp/~jun/ \
 #		-b http://ds0n.cc.yamaguchi-u.ac.jp/~nishii/ \

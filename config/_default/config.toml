@@ -34,7 +34,7 @@ enableGitInfo = false
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "ja"
 hasCJKLanguage = true  # Set `true` for Chinese/Japanese/Korean languages.
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 
 paginate = 12  # Number of items per page in paginated lists.
 enableEmoji = false
