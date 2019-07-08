@@ -3,7 +3,7 @@ title: skill science
 tags:
 - skill science
 image:
-  caption: ""
+  caption: "Cyclogram by Bernstein"
   focal_point: Smart
 weight: 10
 ---

@@ -125,7 +125,7 @@ video {
     float: right;
     border-bottom: 1px solid #4052b5;
     font-weight: 400;
-    font-style: italic;
+/*    font-style: italic;*/
     font-size: .7rem;
     color: #4052b5;/*文字色*/
     margin-right:2px;

@@ -1,5 +1,11 @@
 ---
 title: skill science
+tags:
+- skill science
+image:
+  caption: "Cyclogram by Bernstein"
+  focal_point: Smart
+weight: 10
 ---
 
 ![](Cyclogram_Gastev_TSIT.jpg)
@@ -14,4 +20,4 @@ and (2) the ability to solve a given task by multiple ways, in other words, by u
 This episode indicates that variance of the movement of proficient performers involves a key to find tacit knowledge.
 We are analyzing such tacit knowledge involved in human movements by using uncontrolled manifold (UCM) analysis.
 
-[Related papers](../papers/#Bernstein)
+<!--[Related papers](../papers/#Bernstein)-->

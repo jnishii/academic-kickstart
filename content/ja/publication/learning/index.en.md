@@ -1,7 +1,11 @@
 ---
 title: learning theory
-icon: user
-menu: false
+tags:
+- Neural Network
+image:
+  caption: ""
+  focal_point: Smart
+weight: 10
 ---
 
 ### Learning models for coupled neural oscillators
