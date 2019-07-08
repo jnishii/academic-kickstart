@@ -5,6 +5,7 @@
 
 [[main]]
   name = "ホーム"
+  aliase ="/ja"
   url = "/"
   weight = 1
 
@@ -68,7 +69,7 @@
 
 [[main]]
   name = "メモ"
-  url = "/notebook"
+  url = "http://bcl.sci.yamaguchi-u.ac.jp/~jun/notebook"
   weight = 50
 
 [[main]]

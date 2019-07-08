@@ -35,7 +35,7 @@ interests:
 - 脳の学習モデル
 - 運動制御理論
 - 行動の進化モデル
-- その他
+- その他，脳の情報処理やその起源に関すること
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -48,9 +48,9 @@ social:
 #- icon: google-scholar
 #  icon_pack: ai
 #  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-- icon: github
-  icon_pack: fab
-  link: https://github.com/jnishii
+#- icon: github
+#  icon_pack: fab
+#  link: https://github.com/jnishii
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 # - icon: cv

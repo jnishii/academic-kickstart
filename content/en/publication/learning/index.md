@@ -5,7 +5,7 @@ tags:
 image:
   caption: ""
   focal_point: Smart
-weight: 10
+weight: 40
 ---
 
 ### Learning models for coupled neural oscillators

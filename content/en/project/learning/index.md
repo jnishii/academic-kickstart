@@ -1,5 +1,6 @@
 ---
 title: learning model team
+summary: building learning models that find out tacit knowledge
 tags:
 - Neural Network
 - learning theory

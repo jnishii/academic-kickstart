@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Informatics
+role: Professor of Graduate School of Sciences and Technology for Innovation
 
 # Organizations/Affiliations
 organizations:
@@ -23,14 +23,32 @@ bio: My research interests include brain modeling, biomechanics, and skill scien
 interests:
 - Neural Networks
 - Biomechanics
+- Brain modelling
 - Skill Science
 
-education:
+career:
+  courses:
+  - course: Professor
+    institution: Yamaguchi University
+    year: 2010
+  - course: Associate Professor
+    institution: Yamaguchi University
+    year: 1999
+  - course: Special Postdoctoral Fellow
+    institution: RIKEN
+    year: 1996
+  - course: Research Associate
+    institution: University of Tokyo
+    year: 1992
+
+degree/education:
   courses:
   - course: PhD in Engineering
     institution: University of Tokyo
     year: 1996
-
+  - course: Master in Engineering
+    institution: University of Tokyo
+    year: 1992
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
@@ -63,6 +81,6 @@ email: ""
 #- Visitors
 ---
 
-Jun Nishii is a professor at Yamaguchi Univ, JAPAN. 
+Jun Nishii is a professor at Yamaguchi Univ., JAPAN. 
 His research interests include brain modeling, biomechanics, and skill science.
 

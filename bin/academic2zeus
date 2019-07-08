@@ -1,0 +1,6 @@
+#!/bin/bash
+hugo -s ${HOME}/Sites/hugo-academic/ \
+	-b /~jun/ \
+	-d ${HOME}/mnt/zeus/jun/public_html/hugo
+
+#		-b http://ds0n.cc.yamaguchi-u.ac.jp/~nishii/ \

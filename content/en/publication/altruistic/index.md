@@ -1,13 +1,13 @@
 ---
-title: "利他行動の進化"
+title: Evolution of altruistic behavior
 tags:
 - evolution
 weight: 60
 ---
 
-### 利他行動の進化
+According to Darwin's theory of evolution, living things that can take more food than others and leave more offspring survive in that environment.
+However, it is difficult by this theory to explain the existence of altruistic behaviors that would benefit others, and discussions on this point have been ongoing since Darwin.
 
-ダーウィンの進化論によると，他個体よりもより多くの餌を取り，より多くの子孫を残すことができるような生物が，その環境で生き残ることになります。
-しかし，このように考えると他個体に利益を与えるような利他行動の存在の説明が難しくなり，この点についての議論はダーウィン以降，現在も続いています。
-そこで，本研究室ではシミュレーション実験等によって，利他行動が生存に有利になるのはどのようなときかを検討しています。
+<!--more-->
 
+In our laboratory, we are examining by simulation experiments what kind of conditions make altruistic behaviors advantageous for survival.

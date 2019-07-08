@@ -1,23 +1,17 @@
 ---
-title: skill science
+title: Movement analysis team
+summary: Discovering tacit knowledge by data science techniques
 tags:
 - skill science
+- biomechanics
 image:
-  caption: ""
+  caption: "Cyclogram by Bernstein"
   focal_point: Smart
 weight: 10
 ---
 
-![](Cyclogram_Gastev_TSIT.jpg)
+<!--![](Cyclogram_Gastev_TSIT.jpg)-->
 
-Bernstein, a Russian physiologist in 20th century, aka, the father of biomechanics, reported that skilled blacksmith correctly hit a target place by the hammer, however, variance was observed in hand trajectory every trial.
+It often takes over decades to become a skillful music player.  One of the major reasons is that it is often difficult even for experts to explain how we should move our body in order to achieve the target task.
 
----
-
-From this finding he discussed that (1) our nervous system pays attention to some specific points to perform a given task
-and (2) the ability to solve a given task by multiple ways, in other words, by utilizing the synergy among the abundant DOFs, is a typical characteristics of the intelligence that the living bodies show.
-
-This episode indicates that variance of the movement of proficient performers involves a key to find tacit knowledge.
-We are analyzing such tacit knowledge involved in human movements by using uncontrolled manifold (UCM) analysis.
-
-[Related papers](../papers/#Bernstein)
+We are conducting motion measurement experiments using devices such as motion captors, EMG, force plate, etc., and analyzing the data using data science techniques to discover tacit knowledge behind our movements.
