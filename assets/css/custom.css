@@ -42,6 +42,17 @@ hr {
 .navbar-light .navbar-brand {
   font-weight: 400;
   font-size: 1.6em;
+  line-height: 0;
+}
+
+.navbar-light .navbar-brand {
+  font-weight: 400;
+  font-size: 1.6em;
+  line-height: 0;
+}
+
+.navbar-brand, .navbar-nav li.nav-item a.nav-link {
+    line-height: inherit;
 }
 
 /* navbar items */
