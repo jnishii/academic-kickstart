@@ -110,9 +110,9 @@
             <li class="nav-item">
               <a class="nav-link" href="{{ .Permalink }}"{{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}> 
               {{if eq .Lang "ja"}}
-                <img src="/img/ja-flag.png" itemprop="image" width="30" alt="ja">
+                <img src="{{ printf "/img/ja-flag.png" | relURL }}" itemprop="image" width="30" alt="ja">
               {{else}}
-                <img src="/img/uk-flag.png" itemprop="image" width="30" alt="uk">
+                <img src="{{ printf "/img/uk-flag.png" | relURL }}"  itemprop="image" width="30" alt="uk">
               {{end}}
               </a>
             </li>
