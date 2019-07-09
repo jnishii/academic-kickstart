@@ -2,7 +2,7 @@
 title: Movement analysis team
 summary: Discovering tacit knowledge by data science techniques
 tags:
-- skill science
+- motor control
 - biomechanics
 image:
   caption: "Cyclogram by Bernstein"

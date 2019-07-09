@@ -89,7 +89,7 @@
       {{ end }}
 
       {{ with $person.interests }}
-      <div class="col-md-3">
+      <div class="col-md-4">
         <h3>{{ i18n "interests" | markdownify }}</h3>
         <ul class="ul-interests">
           {{ range . }}
@@ -101,7 +101,7 @@
 
 
       {{ with $person.career }}
-      <div class="col-md-7">
+      <div class="col-md-4">
         <h3>{{ i18n "career" | markdownify }}</h3>
         <ul class="ul-edu fa-ul">
           {{ range .courses }}
@@ -118,7 +118,7 @@
       {{ end }}
 
       {{ with $person.education }}
-      <div class="col-md-7">
+      <div class="col-md-4">
         <h3>{{ i18n "education" | markdownify }}</h3>
         <ul class="ul-edu fa-ul">
           {{ range .courses }}
@@ -135,7 +135,7 @@
       {{ end }}
 
       {{ with $person.societies }}
-      <div class="col-md-3">
+      <div class="col-md-4">
         <h3>{{ i18n "societies" | markdownify }}</h3>
         <ul class="ul-interests">
           {{ range . }}

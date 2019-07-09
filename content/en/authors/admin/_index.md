@@ -41,7 +41,7 @@ career:
     institution: University of Tokyo
     year: 1992
 
-degree/education:
+education:
   courses:
   - course: PhD in Engineering
     institution: University of Tokyo

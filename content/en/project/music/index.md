@@ -2,7 +2,7 @@
 title: music / expression technique team
 summary: Quantative study about the information processing that brings emotion
 tags:
-- music analysis
+- music
 image:
   caption: ""
   focal_point: Smart
