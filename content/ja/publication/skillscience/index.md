@@ -4,7 +4,8 @@ summary: データサイエンスでスポーツや音楽演奏のコツを明�
 tags:
 - biomechanics
 image:
-  caption: Cyclogram by Bernstein
+#  caption: Cyclogram by Bernstein
+  caption: 運動計測実験の様子
   focal_point: Smart
 weight: 20
 ---
