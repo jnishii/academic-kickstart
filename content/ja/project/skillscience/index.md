@@ -6,7 +6,7 @@ tags:
 image:
   caption: capturing motions
   focal_point: Smart
-weight: 20
+weight: 30
 ---
 
 スポーツや音楽演奏の熟練者になるには数十年単位の練習が必要な場合も珍しくありません。

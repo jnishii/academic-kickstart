@@ -6,7 +6,7 @@ tags:
 image:
   caption: from Matthew passion
   focal_point: Smart
-weight: 60
+weight: 40
 ---
 
 ヒトが感動するような楽曲や演奏，身体表現にはどのような特徴が潜んでいるかを解明したいと思っています。

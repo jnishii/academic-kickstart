@@ -1,0 +1,5 @@
+#!/bin/bash
+
+TMDIR=/Users/jun/Dropbox/Sites/grav/user/themes
+
+diff ${TMDIR}/antimatter/templates/$1 ${TMDIR}/myantimatter/templates/$1

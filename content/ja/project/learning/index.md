@@ -6,7 +6,7 @@ tags:
 image:
   caption: コツを発見する神経回路網モデル
   focal_point: Smart
-weight: 10
+weight: 20
 ---
 
 ### 重要な情報を抽出し，冗長な身体自由度を活用した運動を行う学習理論
