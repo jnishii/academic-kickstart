@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SOURCE=${HOME}/Sites/hugo-academic/
+SOURCE=${HOME}/Sites/hugo-academic
 DEST=${HOME}/mnt/zeus/jun/public_html/hugo
 
 hugo -s ${SOURCE}\
@@ -8,7 +8,9 @@ hugo -s ${SOURCE}\
 	-d  ${DEST}\
 	--cleanDestinationDir
 
+echo "(cd ${DEST}; ln -sf ../custom/download .)"
 (cd ${DEST}; ln -sf ../custom/download .)
 
-#			-b http://bcl.sci.yamaguchi-u.ac.jp/~jun/ \
-#		-b http://ds0n.cc.yamaguchi-u.ac.jp/~nishii/ \
+cat << EOF > ${DEST}/.htaccess
+ErrorDocument 404 /~jun/404.html
+EOF
