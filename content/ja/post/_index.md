@@ -1,6 +1,7 @@
 ---
 title: "blog"
-aliases: ["/ja/blog"]
+aliases: ["/ja/blog","/ja/post","/blog"]
+
 # View.
 #   1 = List
 #   2 = Compact
