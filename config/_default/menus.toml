@@ -4,20 +4,25 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
-  name = "ホーム"
+  name = "home"
 #  alias ="/ja"
   url = "/"
   weight = 1
 
 [[main]]
   name = "研究"
-  url = "/study"
+  url = "#projects"
   weight = 10
 
 [[main]]
   name = "自己紹介"
-  url = "/study/#about"
+  url = "#about"
   weight = 20
+
+[[main]]
+  name = "blog"
+  url = "/blog"
+  weight = 10
 
 ### Submenu of `classes`
 ### 各講義用ファイルのヘッダで指定したいが，widgetページのためかうまくいかない
