@@ -29,9 +29,9 @@ RelativeURLs=true
 CanonifyURLs=true
 ```
 の指定で大丈夫とあるが，`relLanURL`の振る舞いは変わらないのでこちらは不採用。試行錯誤で見つけた方法は以下のとおり。
-    - メニュー項目の`url`指定の頭には`/`はつけない)[ページ](https://github.com/pacollins/hugo-future-imperfect-slim/issues/34)([はじめのバグ報告ページ](https://github.com/gohugoio/hugo/issues/6073))
+    - メニュー項目の`url`指定の頭には`/`はつけない。([参考1](https://github.com/pacollins/hugo-future-imperfect-slim/issues/34),[参考2](https://github.com/gohugoio/hugo/issues/6073))
     - baseURLには`/~someone/`のみを指定
-3. Gravでは任意のフォルダをトップページに指定できる。Hugoは`content/home/`以下がトップページに決め打ちで，そのフォーマットを変更するのは結構面倒くさい。blog用のページも`content/post/`に決め打ちで，`content/blog/`に変えたくてもこれまた大変。[関連情報はこちら](https://github.com/gcushen/hugo-academic/issues/356)にあり。
+3. Gravでは任意のフォルダのコンテンツをトップページに指定でき，コンテンツのフォーマットの変更も簡単。Hugoはコンテンツをおく位置や名称で，そのフォーマットや役割(トップページとかblogページとか)を決めるのが原則なので，それをちょっと変えようとすると結構面倒。例えば，academicテーマの場合，トップページのコンテンツは`content/home/`, blog用のページは`content/post/`に決め打ちで，これを変更しようとすると四苦八苦する。[関連情報はこちら](https://github.com/gcushen/hugo-academic/issues/356)。
 4. Gravでは良きにはからってくれることが，Hugoではなかなかうまくいかないことが多いが，Hugoが使い勝手が悪いというよりは，Gravの設計が非常によく出来ているという印象。
 
 
