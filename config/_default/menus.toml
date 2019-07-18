@@ -21,7 +21,7 @@
 
 [[main]]
   name = "blog"
-  url = "/blog"
+  url = "blog"
   weight = 10
 
 ### Submenu of `classes`
@@ -29,33 +29,33 @@
 [[main]]
   name = "講義"
   identifier = "classes"
-  url = "/classes"
+  url = "classes"
   weight = 30
 
 [[main]]
   parent ="classes"
   name = "物理学I"
-  url = "/classes/#physics"
+  url = "classes/#physics"
 
 [[main]]
   parent ="classes"
   name = "物理と情報のための基礎数学II"
-  url = "/classes/#math"
+  url = "classes/#math"
 
 [[main]]
   parent ="classes"
   name = "ロジカルシンキング"
-  url = "/classes/#lt"
+  url = "classes/#lt"
 
 [[main]]
   parent ="classes"
   name = "計算モデル論II"
-  url = "/classes/#cm"
+  url = "classes/#cm"
 
 [[main]]
   parent ="classes"
   name = "計算モデル論演習II"
-  url = "/classes/#gym"
+  url = "classes/#gym"
 
 [[main]]
   parent ="classes"
@@ -67,7 +67,7 @@
 [[main]]
   name = "テキスト"
   identifier = "misc"
-  url = "/misc"
+  url = "misc"
   weight = 40
 
 ### submenu of materials are specified in the header of each page!
