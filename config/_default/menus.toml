@@ -6,17 +6,17 @@
 [[main]]
   name = "home"
 #  alias ="/ja"
-  url = "/"
+  url = ""
   weight = 1
 
 [[main]]
   name = "study"
-  url = "/study"
+  url = "study"
   weight = 10
 
 [[main]]
-  name = "me"
-  url = "/study/#about"
+  name = "about"
+  url = "study/#about"
   weight = 20
 
 ### Submenu of `classes`
@@ -24,45 +24,45 @@
 [[main]]
   name = "classes"
   identifier = "classes"
-  url = "/classes"
+  url = "classes"
   weight = 30
 
 [[main]]
   parent ="classes"
   name = "物理学I"
-  url = "/classes/#physics"
+  url = "classes/#physics"
 
 [[main]]
   parent ="classes"
   name = "物理と情報のための基礎数学II"
-  url = "/classes/#math"
+  url = "classes/#math"
 
 [[main]]
   parent ="classes"
   name = "ロジカルシンキング"
-  url = "/classes/#lt"
+  url = "classes/#lt"
 
 [[main]]
   parent ="classes"
   name = "計算モデル論II"
-  url = "/classes/#cm"
+  url = "classes/#cm"
 
 [[main]]
   parent ="classes"
   name = "計算モデル論演習II"
-  url = "/classes/#gym"
+  url = "classes/#gym"
 
 [[main]]
   parent ="classes"
   name = "自然科学II"
-  url = "/classes/#ns"
+  url = "classes/#ns"
 
 
 #######
 [[main]]
   name = "texts"
   identifier = "misc"
-  url = "/misc"
+  url = "misc"
   weight = 40
 
 ### submenu of materials are specified in the header of each page!
