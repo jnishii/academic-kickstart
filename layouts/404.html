@@ -24,7 +24,7 @@
   {{ if gt $count 0 }}
   <h2>{{ i18n "user_profile_latest" }}</h2>
   <ul>
-  	<li><a href="/~jun/">トップページ</a></li>
+  	<li><a href="/~jun/">Top Page</a></li>
     {{ range first 10 $query }}
       <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
     {{ end }}

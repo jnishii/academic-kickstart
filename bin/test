@@ -1,0 +1,16 @@
+#!/bin/bash
+
+SOURCE=${HOME}/Sites/hugo-academic
+DEST=${HOME}/mnt/zeus/nishii/public_html/hugo
+
+hugo -s ${SOURCE}\
+	-b /~nishii/ \
+	-d ${DEST}\
+	--cleanDestinationDir
+
+echo "(cd ${DEST}; ln -sf ../custom/download .)"
+(cd ${DEST}; ln -sf ../custom/download .)
+
+cat << EOF > ${DEST}/.htaccess
+ErrorDocument 404 /~nishii/404.html
+EOF

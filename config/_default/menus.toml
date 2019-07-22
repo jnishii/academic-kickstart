@@ -6,7 +6,7 @@
 [[main]]
   name = "home"
 #  alias ="/ja"
-  url = "/"
+  url = ""
   weight = 1
 
 [[main]]
@@ -27,7 +27,7 @@
 ### Submenu of `classes`
 ### 各講義用ファイルのヘッダで指定したいが，widgetページのためかうまくいかない
 [[main]]
-  name = "講義"
+  name = "classes"
   identifier = "classes"
   url = "classes"
   weight = 30
@@ -60,12 +60,12 @@
 [[main]]
   parent ="classes"
   name = "自然科学II"
-  url = "/classes/#ns"
+  url = "classes/#ns"
 
 
 #######
 [[main]]
-  name = "テキスト"
+  name = "texts"
   identifier = "misc"
   url = "misc"
   weight = 40
@@ -73,12 +73,12 @@
 ### submenu of materials are specified in the header of each page!
 
 [[main]]
-  name = "メモ"
+  name = "notebook"
   url = "http://bcl.sci.yamaguchi-u.ac.jp/~jun/notebook"
   weight = 50
 
 [[main]]
-  name = "研究室"
+  name = "labo"
   url = "http://bcl.sci.yamaguchi-u.ac.jp/"
   weight = 60
 
