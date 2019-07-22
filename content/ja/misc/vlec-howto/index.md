@@ -1,5 +1,6 @@
 ---
 title: ビデオ講義の作り方
+aliases: ["/ja/misc/vlec-howto"]
 date: 2017-11-27
 menu:
   main:

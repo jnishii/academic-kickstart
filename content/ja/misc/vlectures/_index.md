@@ -1,5 +1,6 @@
 ---
 title: ビデオ講義
+aliases: ["/ja/misc/vlectures"]
 date: 2017-11-27
 menu:
   main:

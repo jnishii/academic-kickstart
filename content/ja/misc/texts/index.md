@@ -1,5 +1,6 @@
 ---
 title: 特製テキスト
+aliases: ["/ja/misc/texts"]
 date: false
 menu:
   main:

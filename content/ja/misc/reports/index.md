@@ -1,5 +1,6 @@
 ---
 title: ノート・感想・レポートの書き方
+aliases: ["/ja/misc/reports"]
 menu:
   main:
     parent: 'misc'
