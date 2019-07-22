@@ -1,6 +1,7 @@
 ---
 title: "サッカーゲームで本格サッカー(プレ配属作品)"
 date: 2019-07-08
+type: post
 categories: ["misc"]
 tags: ["misc"]
 ---
