@@ -12,5 +12,5 @@ echo "(cd ${DEST}; ln -sf ../custom/download .)"
 (cd ${DEST}; ln -sf ../custom/download .)
 
 cat << EOF > ${DEST}/.htaccess
-ErrorDocument 404 /~jun/404.html
+ErrorDocument 404 /~jun/ja/404.html
 EOF
