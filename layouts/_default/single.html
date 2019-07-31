@@ -23,7 +23,7 @@
         <h3>{{ i18n "related" }}</h3>
         <ul>
           {{ range . }}
->           <li><a href="{{ .RelPermalink }}">{{ .Date.Format "2006/01/02" }} {{ .Title }}</a></li>
+           <li><a href="{{ .RelPermalink }}">{{ .Date.Format "2006/01/02" }} {{ .Title }}</a></li>
           {{ end }}
         </ul>
       </div>
