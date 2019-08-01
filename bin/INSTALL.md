@@ -32,3 +32,7 @@ $ git rm -f themes/academic
 ```
 $ rm .git/modules
 ```
+
+# その他の設定
+
+[Change "post/" to "blog/" #356](https://github.com/gcushen/hugo-academic/issues/356)
