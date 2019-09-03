@@ -1,5 +1,5 @@
 ---
-title: "あなたの進路は人工知能が決める"
+title: あなたの進路は人工知能が決める
 date: 2015-01-13
 categories: ["misc"]
 tags: ["AI"]
