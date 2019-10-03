@@ -57,6 +57,10 @@
   name = "自然科学II"
   url = "classes/#ns"
 
+[[main]]
+  parent ="classes"
+  name = "自然情報科学"
+  url = "classes/#dynamicalsystem"
 
 #######
 [[main]]
