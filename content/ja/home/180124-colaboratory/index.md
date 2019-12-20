@@ -2,7 +2,7 @@
 title: "ColaboratoryでGPU計算"
 date: 2018-01-24
 categories: ["comp"]
-tags: ["python","colaboratory"]
+tags: ["python","colaboratory","jupyter"]
 ---
 
 pythonのコードを少し試す時には[jupyter notebook](http://jupyter.org/)が便利なんだけど，お手軽にクラウド上で使えるものが無いかと探したら，google の[Colaboratory](https://colab.research.google.com/notebook)が無料で使えて，共同編集もできるので便利。

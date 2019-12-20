@@ -2,7 +2,7 @@
 title: "Python初心者のための強化学習プログラミング"
 date: 2018-12-18
 categories: ["comp"]
-tags: ["python","openAI Gym"]
+tags: ["python","jupyter","openAI Gym"]
 ---
 
 
