@@ -2,6 +2,7 @@
 title: ビデオ講義の作り方
 aliases: ["/ja/misc/vlec-howto"]
 date: 2017-11-27
+lastmod: 2020-03-12
 menu:
   main:
     parent: 'misc'
