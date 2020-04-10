@@ -15,7 +15,6 @@ weight: 60
 - 宿題は，講義後に解答可能になります。
 - 以下のリンクからe-learningサイトにログインしてください。
 	+ **工(応化・循環)の方**: [自然科学2(工(応化・循環))](https://mdcs4s.cc.yamaguchi-u.ac.jp/moodle/course/view.php?id=40857&noprocess)
- <!--	+ **工(機械･感性)の方**: [自然科学2(工(機械･感性))](https://mdcs4s.cc.yamaguchi-u.ac.jp/moodle/course/view.php?id=28108&noprocess)-->
 	+ **教育学部の方**: [自然科学2(教育)](https://mdcs4s.cc.yamaguchi-u.ac.jp/moodle/course/view.php?id=40897&noprocess)
 - 上記サイトのトップページからは「Home/修学支援/2020/前期/共通教育/」とたどり，自分の所属学部・学科のものを選んでください。
 -  ログイン名やパスワードは大学の計算機アカウントと同じです。
