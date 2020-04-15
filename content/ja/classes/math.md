@@ -30,7 +30,7 @@ weight: 20
 ### e-learningについて
 
 - 以下のリンクからe-learningサイトにログインしてください。
- + [基礎数学IIのe-learningコーナー](hhttps://mdcs4s.cc.yamaguchi-u.ac.jp/moodle/course/view.php?id=40902&noprocess)
+ + [基礎数学IIのe-learningコーナー](https://mdcs4s.cc.yamaguchi-u.ac.jp/moodle/course/view.php?id=40902&noprocess)
  + 上記サイトのトップページからは「Home/就学支援/2020/前期/理学部/2020物理と情報のための基礎数学II」とたどって下さい。
 -  ログイン名とパスワードは大学の計算機アカウントと同じです。
 
