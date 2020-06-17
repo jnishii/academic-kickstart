@@ -1,5 +1,9 @@
 {{ $is_list := .is_list }}
+{{ $share := .share | default false }}
 {{ $page := .page }}
+
+<meta content="{{ $page.Params.Date }}" itemprop="datePublished">
+<meta content="{{ $page.Params.LastMod }}" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -24,10 +28,10 @@
           {{ i18n "last_updated" }}
       {{ end }}
     {{ end }}
-    {{ $date }}
+    <time>{{ $date }}</time>
   </span>
   {{ end }} <!--jun-->
-  {{ end }}  
+  {{ end }}
 
   {{ if and (eq $is_list 1) (eq $page.Type "publication") }}
   <span class="middot-divider"></span>
@@ -47,26 +51,29 @@
   </span>
   {{ end }}
 
-  {{/* Show Disqus comment count if enabled. */}}
-  {{ $disqus_enabled := eq site.Params.comments.engine 1 | and (index site.Params.comments.commentable $page.Type) | and (ne $page.Params.commentable false) | or $page.Params.commentable }}
-  {{ if and $disqus_enabled (site.Params.comments.disqus.show_count | default true) }}
+  {{ $comments_enabled := and site.DisqusShortname (not (or site.Params.disable_comments (eq $page.Params.comments false))) }}
+  {{ if and $comments_enabled (site.Params.comment_count | default true) }}
   <span class="middot-divider"></span>
   <a href="{{ $page.RelPermalink }}#disqus_thread"><!-- Count will be inserted here --></a>
-  {{ end }}
+  {{ end}}
 
 <!--
   {{ $taxonomy := "categories" }}
-  {{ if $page.Param $taxonomy }}
+  {{ with $page.Param $taxonomy }}
   <span class="middot-divider"></span>
   <span class="article-categories">
-    <i class="fas fa-folder mr-1"></i>
-    {{- range $index, $value := ($page.GetTerms $taxonomy) -}}
+    <i class="fas fa-folder"></i>
+    {{ range $index, $value := . -}}
       {{- if gt $index 0 }}, {{ end -}}
-      <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+      <a href="{{ (site.GetPage (printf "/%s/%s" $taxonomy (. | urlize))).RelPermalink }}">{{ . }}</a>
     {{- end -}}
   </span>
   {{ end }}
 -->
   {{ partial "tags.html" $page }} <!--jun-->
+
+  {{ if $share }}
+    {{ partial "share.html" $page }}
+  {{ end }}
 
 </div>

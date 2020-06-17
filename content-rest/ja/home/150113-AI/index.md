@@ -5,7 +5,7 @@ categories: ["misc"]
 tags: ["AI"]
 ---
 
-{{<link src="http://wired.jp/2015/01/12/next-world-04/)">}}
+{{<link src="http://wired.jp/2015/01/12/next-world-04/">}}
 
 Wired.jpの記事[「あなたの進路は人工知能が決める」](http://wired.jp/2015/01/12/next-world-04/)にはちょっと扇動的なタイトルがついているが，「人工知能」といっても，データ解析の手段にしか過ぎないし，予備校の合格判定は数十年前からデータ解析で行っている。
 

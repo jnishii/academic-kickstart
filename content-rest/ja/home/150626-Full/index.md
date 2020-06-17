@@ -5,7 +5,7 @@ categories: ["research"]
 tags: ["locomotion"]
 ---
 
-{{< link src="http://wired.jp/2015/06/25/robot-cockroach-launches-robobird-in-emergencies/" >}}
+{{<link src="http://wired.jp/2015/06/25/robot-cockroach-launches-robobird-in-emergencies/">}}
 
 
 <!--more-->
