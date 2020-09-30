@@ -63,11 +63,14 @@
     <!---->
 
     {{ with $summary }}
-    <div class="article-style">
-      {{ . }}
+    <div class="article-style"> <!--replace class and link by jun-->
+      {{.}}
+       <a href="{{ $item.RelPermalink }}" class="summary-link">
+        <font color=#00a>[Read More]</font>
+      </a>
     </div>
-    {{ end }}
 
+    {{ end }}
 
     {{ if $show_buttons }}
     <div class="btn-links">

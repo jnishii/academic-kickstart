@@ -3,9 +3,9 @@ title: 計算モデル論演習II
 weight: 50
 ---
 
-## 2019年度の案内
+## 2020年度の案内
 
-2019年度の計算モデル論演習II(西井担当)では，強化学習のプログラムをpythonで作ります。
+2020年度の計算モデル論演習II(西井担当)では，強化学習のプログラムをpythonで作ります。
 
 <!--
 - 計算モデル論IIは川村先生と西井が担当します。
@@ -40,7 +40,7 @@ weight: 50
 
 e-learningコーナーに各種情報を掲載しています。
 
--  [e-learningコーナー「2019計算モデル論演習II」](https://mdcs4s.cc.yamaguchi-u.ac.jp/moodle/course/view.php?id=28160&noprocess)
+-  [e-learningコーナー「2020計算モデル論演習II」](https://mdcs4s.cc.yamaguchi-u.ac.jp/moodle/course/view.php?id=44644&noprocess)
 - 上記ページに入るときに登録キーの入力を求められることがあります。講義で説明します。
 - 毎週の演習時には必ずログインして出席登録してください。
 - **宿題**の〆切もよく確認して忘れずにしましょう。

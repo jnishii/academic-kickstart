@@ -1,4 +1,6 @@
 {{ $current_page := . }}
+{{ $highlight_active_link := site.Params.main_menu.highlight_active_link | default true }}
+{{ $show_current_language := site.Params.main_menu.show_language | default false }}
 
 {{/* Get site logo. */}}
 {{ $show_logo := site.Params.main_menu.show_logo | default true }}
@@ -90,7 +92,7 @@
         {{ end }}
 
         <li class="nav-item">
-          <a class="nav-link {{if $is_link_in_current_path }} active{{end}}" href="{{.URL | relLangURL}}"{{ if and $is_widget_page $is_same_page }} data-target="{{$hash}}"{{ end }}{{ ($.Scratch.Get "target") | safeHTMLAttr }}>
+          <a class="nav-link {{if and $highlight_active_link $is_link_in_current_path }} active{{end}}" href="{{.URL | relLangURL}}"{{ if and $is_widget_page $is_same_page }} data-target="{{$hash}}"{{ end }}{{ ($.Scratch.Get "target") | safeHTMLAttr }}>
             {{- .Pre -}}<span>{{ .Name | safeHTML }}</span>{{- .Post -}}
           </a>
         </li>
@@ -130,22 +132,6 @@
       </li>
       {{ end }}
 
-      <!--added national flag by Jun-->
-      {{ if .IsTranslated }}
-          {{ range .Translations }}
-          <li class="nav-item">
-            <a class="nav-link" href="{{ .Permalink }}"{{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}> 
-            {{if eq .Lang "ja"}}
-              <img src="{{ printf "/img/ja-flag.png" | relURL }}" itemprop="image" width="30" alt="ja">
-            {{else}}
-              <img src="{{ printf "/img/uk-flag.png" | relURL }}"  itemprop="image" width="30" alt="uk">
-            {{end}}
-            </a>
-          </li>
-          {{ end }}
-      {{ end }}
-        <!--end-->
-
       {{ if site.Params.day_night }}
       <li class="nav-item dropdown theme-dropdown">
         <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
@@ -165,10 +151,30 @@
       </li>
       {{ end }}
 
+            <!--added national flag by Jun-->
+      {{ if .IsTranslated }}
+          {{ range .Translations }}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ .Permalink }}"{{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}> 
+            {{if eq .Lang "ja"}}
+              <img src="{{ printf "/img/ja-flag.png" | relURL }}" itemprop="image" width="30" alt="ja">
+            {{else}}
+              <img src="{{ printf "/img/uk-flag.png" | relURL }}"  itemprop="image" width="30" alt="uk">
+            {{end}}
+            </a>
+          </li>
+          {{ end }}
+      {{ end }}
+        <!--end-->
+
+<!--
       {{ if .IsTranslated }}
       <li class="nav-item dropdown i18n-dropdown">
-        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
-          <i class="fas fa-globe mr-1" aria-hidden="true"></i><span class="d-none d-lg-inline">{{ index site.Data.i18n.languages .Lang }}</span>
+        <a href="#" class="nav-link {{ if $show_current_language }}dropdown-toggle{{end}}" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-globe mr-1" aria-hidden="true"></i>
+          {{- if $show_current_language -}}
+            <span class="d-none d-lg-inline">{{ index site.Data.i18n.languages .Lang }}</span>
+          {{- end -}}
         </a>
         <div class="dropdown-menu">
           <div class="dropdown-item dropdown-item-active">
@@ -182,6 +188,7 @@
         </div>
       </li>
       {{ end }}
+-->      
 
     </ul>
 
