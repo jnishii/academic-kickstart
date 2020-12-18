@@ -13,6 +13,12 @@ Homebrewのarm版バイナリが整備されるまでは，arm版とi86版の併
 
 [Ressさんのサイト](https://zenn.dev/ress/articles/069baf1c305523dfca3d)を参考に，以下のように設定した。
 
+
+#### ターミナル
+
+「ターミナルの情報」を開いて，「Rosettaを使用して開く」を有効にする。
+
+
 #### homebrewのインストール
 
 x86_64版とarm版の両方をインストールする。
@@ -26,10 +32,6 @@ $ sudo mkdir /opt/homebrew
 $ sudo chown $USER /opt/homebrew
 $ curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C /opt/homebrew
 ```
-
-#### ターミナル
-
-「ターミナルの情報」を開いて，「Rosettaを使用して開く」を有効にする。
 
 #### パス設定
 
@@ -53,7 +55,7 @@ path=(
 if [[ "${(L)$( uname -s )}" == darwin ]] && (( $+commands[arch] )); then
     alias brew="arch -arch x86_64 /usr/local/bin/brew"
     alias x64='exec arch -arch x86_64 "$SHELL"'
-    alias a64='exec arch -arch arm64e "$SHELL"'
+    alias arm='exec arch -arch arm64e "$SHELL"'
     switch-arch() {
         if  [[ "$(uname -m)" == arm64 ]]; then
             arch=x86_64
@@ -68,12 +70,19 @@ setopt equals
 ```
 実行例
 ```
+$ arm # ターミナルのarchをarmに
 $ x64 # ターミナルのarchをx64に
 $ brew update # x64版(Rosetta)
-$ arm # ターミナルのarchをarmに
 $ =brew update # arm版
 $ switch-arch # archの切り替え
 ```
+
+### Command Line Tools
+
+```
+xcode-select --install 
+```
+
 
 ### LaTeX
 
