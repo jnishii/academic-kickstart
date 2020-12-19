@@ -1,26 +1,31 @@
 {{- define "main" -}}
 
-
+<!--by jun-->
 <div class="container">
 <div class="row">
+<div class="col-12 col-lg-9">
+<!---->
 
-  <div class="col-12 col-lg-9">
-
+<!-- by Jun 
 {{ partial "page_header.html" . }}
+-->
 
-<div class="media-body">
+<div class="universal-wrapper">
 
   {{ with .Content }}
-  <div class="article-style" itemprop="articleBody">{{ . }}</div>
+  <div class="article-style">{{ . }}</div>
   {{ end }}
 
-  {{ $paginator := "" }} <!--jun-->
+ <!--jun-->
+  {{ $paginator := "" }}
   {{ if .IsHome }}
     {{ $paginator = .Paginate (where (where .Site.Pages "Type" "home") "IsPage" true) }}
   {{ else }}
     {{ $paginator = .Paginate .Data.Pages }}
   {{ end }}
+  <!---->
 
+  {{ $paginator := .Paginate .Data.Pages }}
   {{ range $paginator.Pages }}
     {{ if eq $.Params.view 1 }}
       {{ partial "li_list" . }}
@@ -33,19 +38,22 @@
 
   {{ partial "pagination" . }}
 
-</div>
+</div> <!-- end universal-wrapper -->
+</div> <!-- end class="col-12 col-lg-9" -->
 
-</div>
+<!--category & tag list by Jun-->
+<!--
   <div class="col-12 col-lg-3">
     <div class="article-metadata">
-    <!--category & tag list-->
       <h3>categories</h3>
-        {{ partial "all_categories.html" . }} <!--jun-->
+        {{ partial "all_categories.html" . }}
       <h3>tags</h3>
         {{ partial "all_tags.html" . }}
     </div>
   </div>
-</div>
-</div>
+</div>  
+-->
+</div> 
+<!---->
 
 {{- end -}}

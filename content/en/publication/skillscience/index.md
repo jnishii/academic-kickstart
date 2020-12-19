@@ -6,6 +6,12 @@ image:
   caption: "Cyclogram by Bernstein"
   focal_point: Smart
 weight: 30
+
+# Publication type.
+# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
+# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
+# 7 = Thesis; 8 = Patent
+publication_types: ["3"]
 ---
 
 <!--![](Cyclogram_Gastev_TSIT.jpg)-->

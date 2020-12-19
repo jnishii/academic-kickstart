@@ -7,6 +7,12 @@ image:
   caption: コツを発見する神経回路網モデル
   focal_point: Smart
 weight: 10
+
+# Publication type.
+# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
+# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
+# 7 = Thesis; 8 = Patent
+publication_types: ["3"]
 ---
 
 ### 重要な情報を抽出し，適切な行動・運動を決定する学習理論

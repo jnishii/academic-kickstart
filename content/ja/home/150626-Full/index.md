@@ -5,12 +5,12 @@ categories: ["research"]
 tags: ["locomotion"]
 ---
 
-{{< link src="http://wired.jp/2015/06/25/robot-cockroach-launches-robobird-in-emergencies/" >}}
+![http://wired.jp/2015/06/25/robot-cockroach-launches-robobird-in-emergencies/](https://wired.jp/app/uploads/2015/06/cockroach-robo.png)
 
+[「ゴキブリロボットから飛び立つ、鳥ロボット」](http://wired.jp/2015/06/25/robot-cockroach-launches-robobird-in-emergencies/)という記事があった。何を作りたいのかよくわからない標題だが，真相は，離陸するゴキブリロボットを作りたいのだけどなかなかうまくいかないので，とりあえず発射方式にしたということらしい。
 
 <!--more-->
 
-何を作りたいのかよくわからない標題だが，真相は，離陸するゴキブリロボットを作りたいのだけどなかなかうまくいかないので，とりあえず発射方式にしたということらしい。
 
 開発しているUC Berkleyのチームの源流には, ゴキブリなどの歩行解析の大家の[Robert Full](https://ib.berkeley.edu/people/faculty/fullr)がいる。
 ゴキブリの足は高速移動中は20Hz近い振動数で動くので，その運動の様子を調べるのは結構大変だが，いろいろな速度で歩かせて高速度カメラで解析をしている。専用のトレッドミルを作って歩かせていることもあるが，それに乗せたところでゴキブリが思った通りに動いてくれるのかがなんとも不思議で，以前学会でFullにあった時に質問してみたたが，「そのへんは適当にやっているんだ」と，企業秘密なのか本当に適当なのかわからないお返事だった。

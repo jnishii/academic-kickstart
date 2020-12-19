@@ -7,8 +7,6 @@ image:
 tags: ["legged robot","locomotion"]
 ---
 
-{{<link src="https://www.cyberbotics.com/">}}
-
 ロボットシミュレータの[Webots](https://www.cyberbotics.com/)が知らない間にオープンソース化されて，GitHubにソースが公開されていた。
 
 <!--more-->

@@ -12,7 +12,7 @@ weight: 10
 
 教科書，宿題，その他の情報提供をしています。
 
-- [e-learningサイトへのリンク](https://mdcs4s.cc.yamaguchi-u.ac.jp/moodle/enrol/instances.php?id=40898&noprocess)
+- [e-learningサイトへのリンク](https://mdcs4s.cc.yamaguchi-u.ac.jp/moodle/course/view.php?id=40898&noprocess)
 	- 上記サイトのトップページからは「Home/就学支援/2020/前期/共通教育/2020物理学I」とたどって下さい。
 - ログイン名とパスワードは，入学時にメディア基盤センターから配布されている通り入力して下さい。
 - コースに入る時，登録キーを求められることがあります。講義時に説明した登録キーを入力しましょう。

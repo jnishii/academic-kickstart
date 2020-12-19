@@ -8,6 +8,12 @@ image:
   caption: 運動計測実験の様子
   focal_point: Smart
 weight: 20
+
+# Publication type.
+# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
+# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
+# 7 = Thesis; 8 = Patent
+publication_types: ["3"]
 ---
 
 <!--![](Cyclogram_Gastev_TSIT.jpg)-->

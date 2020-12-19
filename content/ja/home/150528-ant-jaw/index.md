@@ -5,9 +5,10 @@ categories: ["research"]
 tags: ["locomotion"]
 ---
 
-{{<link src="http://wired.jp/2015/05/28/trap-jaw-ants/">}}
+<!-- link src="http://wired.jp/2015/05/28/trap-jaw-ants/" -->
 
-<!--[plugin:embed](http://wired.jp/2015/05/28/trap-jaw-ants/)-->
+![http://wired.jp/2015/05/28/trap-jaw-ants/](https://wired.jp/app/uploads/2015/05/trapjawant1.jpg)
+[死の罠から「アクロバティック」に逃げるアリ](http://wired.jp/2015/05/28/trap-jaw-ants/)を見て思い出した話。
 
 中学生の頃だったか，アリを捕まえようと庭に小さな穴を掘って，そこに飴の入った紙コップを置いておいた．
 翌日，起きたら雨が降っていたので紙コップがどうなっているかを見に行ったら，案の定紙コップは雨水でいっぱい．

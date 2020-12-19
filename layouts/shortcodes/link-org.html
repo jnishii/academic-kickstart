@@ -1,8 +1,10 @@
 {{/** https://blog.piyo.tech/posts/2018-04-02-blog-link/ **/}}
 
 {{- $url := .Get "src" -}}
+{{ printf "%#v" $url }}
 {{- $json := getJSON .Site.Params.OgpJsonBaseUrl $url -}}
 {{- $title := $json.title -}}
+<!--{{- $siteName := $json.SiteName -}}-->
 {{- $description := $json.Description -}}
 {{- $imageUrl := $json.image -}}
 {{- $urlInfo := $json.URL -}}
